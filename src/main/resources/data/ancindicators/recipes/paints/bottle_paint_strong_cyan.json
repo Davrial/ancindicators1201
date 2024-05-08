@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc,",
+  "pattern": [
+    "DDD",
+    "DBD",
+    "DDD"
+  ],
+  "key": {
+    "B": {      "item": "ancindicators:bottle_of_paint_base"    },
+    "D": {      "item": "minecraft:cyan_dye"    }
+  },
+  "result": {    "item": "ancindicators:vial_of_paint_strong_cyan",  "count": 8    }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "111",
+    "111"
+  ],
+  "key": {
+    "1": {      "item": "minecraft:blank_indicator_block"    }
+  },
+  "result": {    "item": "ancindicators:indicator_trapdoor",  "count": 3    }
+}

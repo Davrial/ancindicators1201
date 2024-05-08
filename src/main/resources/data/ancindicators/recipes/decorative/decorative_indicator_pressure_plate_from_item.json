@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "11"
+  ],
+  "key": {
+    "1": {      "item": "minecraft:blank_indicator_item"    }
+  },
+  "result": {    "item": "ancindicators:indicator_pressure_plate"    }
+}
