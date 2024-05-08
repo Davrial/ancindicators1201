@@ -752,6 +752,9 @@ public class AutomaticUniversalRecoloringProcedure {
                             (0 + GetModNamePlusColon.length() + ColoredBlockPrefixColorString.length()),
                             (GetTextInitial.length() - ColoredBlockAffixColorString.length()));
 
+            String GetBlockNameCoreWithMidfix = "";
+            GetBlockNameCoreWithMidfix = GetBlockNameCore.replace(ColoredBlockColorType, ColoredItemColorType);
+
 
             try {
                 //Process 1: For Strongly Colored items converting straight to their respective color
@@ -822,7 +825,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                             + GetModName
                                             + ":"
                                             + ColoredBlockPrefixColorString
-                                            + GetBlockNameCore
+                                            + GetBlockNameCoreWithMidfix
                                             + ColoredBlockAffixColorString
                                             + CBBDFinal
                                             + " replace"
@@ -842,7 +845,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                     + GetModName
                                     + ":"
                                     + ColoredBlockPrefixColorString
-                                    + GetBlockNameCore
+                                    + GetBlockNameCoreWithMidfix
                                     + ColoredBlockAffixColorString
                                     + CBBDFinalBeds
                                     + " replace");
@@ -861,7 +864,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                                     + GetModName
                                                     + ":"
                                                     + ColoredBlockPrefixColorString
-                                                    + GetBlockNameCore
+                                                    + GetBlockNameCoreWithMidfix
                                                     + ColoredBlockAffixColorString
                                                     + CBBDFinalBeds
                                                     + " replace"
@@ -881,7 +884,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                                     + GetModName
                                                     + ":"
                                                     + ColoredBlockPrefixColorString
-                                                    + GetBlockNameCore
+                                                    + GetBlockNameCoreWithMidfix
                                                     + ColoredBlockAffixColorString
                                                     + CBBDFinalBeds
                                                     + " replace"
@@ -901,7 +904,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                                     + GetModName
                                                     + ":"
                                                     + ColoredBlockPrefixColorString
-                                                    + GetBlockNameCore
+                                                    + GetBlockNameCoreWithMidfix
                                                     + ColoredBlockAffixColorString
                                                     + CBBDFinalBeds
                                                     + " replace"
@@ -921,7 +924,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                                     + GetModName
                                                     + ":"
                                                     + ColoredBlockPrefixColorString
-                                                    + GetBlockNameCore
+                                                    + GetBlockNameCoreWithMidfix
                                                     + ColoredBlockAffixColorString
                                                     + CBBDFinalBeds
                                                     + " replace"
@@ -941,7 +944,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                                     + GetModName
                                                     + ":"
                                                     + ColoredBlockPrefixColorString
-                                                    + GetBlockNameCore
+                                                    + GetBlockNameCoreWithMidfix
                                                     + ColoredBlockAffixColorString
                                                     + CBBDFinalBeds
                                                     + " replace"
@@ -961,7 +964,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                                     + GetModName
                                                     + ":"
                                                     + ColoredBlockPrefixColorString
-                                                    + GetBlockNameCore
+                                                    + GetBlockNameCoreWithMidfix
                                                     + ColoredBlockAffixColorString
                                                     + CBBDFinalBeds
                                                     + " replace"
@@ -981,7 +984,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                                     + GetModName
                                                     + ":"
                                                     + ColoredBlockPrefixColorString
-                                                    + GetBlockNameCore
+                                                    + GetBlockNameCoreWithMidfix
                                                     + ColoredBlockAffixColorString
                                                     + CBBDFinalBeds
                                                     + " replace"
@@ -1001,7 +1004,7 @@ public class AutomaticUniversalRecoloringProcedure {
                                                     + GetModName
                                                     + ":"
                                                     + ColoredBlockPrefixColorString
-                                                    + GetBlockNameCore
+                                                    + GetBlockNameCoreWithMidfix
                                                     + ColoredBlockAffixColorString
                                                     + CBBDFinalBeds
                                                     + " replace"
