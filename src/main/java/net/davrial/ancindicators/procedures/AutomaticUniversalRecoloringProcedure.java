@@ -51,6 +51,8 @@ public class AutomaticUniversalRecoloringProcedure {
                 "";
         String GetBlockNameCore =
                 "";
+        String GetBlockNameCoreWithMidfix =
+                "";
         int intX = (int) x;
         int intY = (int) y;
         int intZ = (int) z;
@@ -66,6 +68,7 @@ public class AutomaticUniversalRecoloringProcedure {
                 "";
         final String GetItemNameInitial =
                 String.valueOf(itemstack.getItem());
+
 
 
         //Starter "if" to check if item is a Coloring Tool
@@ -508,10 +511,13 @@ public class AutomaticUniversalRecoloringProcedure {
                         ColoredBlockChecking = -1;
                     }
                 }
+                ANCIndicators.LOGGER.info("Inside Color Getter:" + ColoredBlockColorType);
 
             } catch (Exception e) {
                 System.out.println("Something went wrong with the Get Block Color process");
             }
+
+            ANCIndicators.LOGGER.info("Immediately after Color Getter" + ColoredBlockColorType);
 
 
 
@@ -746,14 +752,21 @@ public class AutomaticUniversalRecoloringProcedure {
                 System.out.println("Something went wrong with the Get Item Color process");
             }
 
+            boolean IsColorMidfix = false;
 
             GetBlockNameCore =
                     GetTextInitial.substring(
                             (0 + GetModNamePlusColon.length() + ColoredBlockPrefixColorString.length()),
                             (GetTextInitial.length() - ColoredBlockAffixColorString.length()));
-
-            String GetBlockNameCoreWithMidfix = "";
-            GetBlockNameCoreWithMidfix = GetBlockNameCore.replace(ColoredBlockColorType, ColoredItemColorType);
+            ANCIndicators.LOGGER.info("Immediately after Color Getters: " + GetBlockNameCore);
+            if(GetTextInitial.contains("_"+ColoredBlockColorType+"_")==true){
+                GetBlockNameCore = GetTextInitial.substring((0 + GetModNamePlusColon.length()), GetTextInitial.length());
+                IsColorMidfix = true;
+            }
+            ANCIndicators.LOGGER.info("Immediately after midfix check " + GetBlockNameCore);
+            if(IsColorMidfix == true) {     GetBlockNameCoreWithMidfix = GetBlockNameCore.replace("_"+ColoredBlockColorType+"_", "_"+ColoredItemColorType+"_");
+            } else {GetBlockNameCoreWithMidfix = GetBlockNameCore;};
+            ANCIndicators.LOGGER.info("Immediately with midfix replacement: " + GetBlockNameCoreWithMidfix);
 
 
             try {
@@ -780,6 +793,12 @@ public class AutomaticUniversalRecoloringProcedure {
             } catch (Exception e) {
                 System.out.println("Something went wrong with the Color Change process");
             }
+
+
+            if(IsColorMidfix == true){
+                ColoredBlockPrefixColorString = "";
+            }
+
 
             BlockEntity clickedBlockEntity = null;
             if (clickedBlock.hasBlockEntity() == true) {
@@ -1085,6 +1104,22 @@ public class AutomaticUniversalRecoloringProcedure {
             } else {
                 itemstack.shrink(1);
             }
+            ANCIndicators.LOGGER.info("At very end: " + ColoredBlockColorType);
+            ANCIndicators.LOGGER.info("Setblock Command output: " + "setblock "
+                    + intX
+                    + " "
+                    + intY
+                    + " "
+                    + intZ
+                    + " "
+                    + GetModName
+                    + ":"
+                    + ColoredBlockPrefixColorString
+                    + GetBlockNameCoreWithMidfix
+                    + ColoredBlockAffixColorString
+                    + CBBDFinal
+                    + " replace");
+
         }
     }
 }
