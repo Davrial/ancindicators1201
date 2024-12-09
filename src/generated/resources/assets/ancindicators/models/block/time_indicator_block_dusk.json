@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ancindicators:block/time_indicator_block_dusk"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "ancindicators:time_indicator_block_dawn",
+    "ancindicators:time_indicator_block_noon",
+    "ancindicators:time_indicator_block_dusk",
+    "ancindicators:time_indicator_block_midnight"
+  ]
+}

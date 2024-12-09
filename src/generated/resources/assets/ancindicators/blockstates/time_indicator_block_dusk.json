@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ancindicators:block/time_indicator_block_dusk"
+    }
+  }
+}
