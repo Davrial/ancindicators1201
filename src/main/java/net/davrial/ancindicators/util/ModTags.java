@@ -32,6 +32,7 @@ public class ModTags {
         public static final TagKey<Block> REDSTONE_INDICATOR_BLOCKS = tag("redstone_indicator_blocks");
         public static final TagKey<Block> LIGHT_LEVEL_INDICATOR_BLOCKS = tag("light_level_indicator_blocks");
         public static final TagKey<Block> ADVANCED_INDICATOR_BLOCKS = tag("advanced_indicator_blocks");
+        public static final TagKey<Block> DIRECTIONAL_INDICATOR_BLOCKS = tag("directional_indicator_blocks");
 
         //Erasable Block Tags
         public static final TagKey<Block> ALL_ERASABLE_BLOCKS = tag("all_erasable_blocks");

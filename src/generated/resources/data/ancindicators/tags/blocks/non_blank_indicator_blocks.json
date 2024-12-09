@@ -3,6 +3,7 @@
     "#ancindicators:alphabetic_indicator_blocks",
     "#ancindicators:numeric_indicator_blocks",
     "#ancindicators:block_color_indicator_blocks",
-    "#ancindicators:text_color_indicator_blocks"
+    "#ancindicators:text_color_indicator_blocks",
+    "#ancindicators:directional_indicator_blocks"
   ]
 }

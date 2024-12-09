@@ -17,6 +17,10 @@
     "ancindicators:redstone_indicator_block_14",
     "ancindicators:redstone_indicator_block_15",
     "ancindicators:redstone_indicator_template_block",
-    "ancindicators:blank_redstone_indicator_block"
+    "ancindicators:blank_redstone_indicator_block",
+    "ancindicators:redstone_indicator_block_lever_on_blank",
+    "ancindicators:redstone_indicator_block_lever_on_redstone",
+    "ancindicators:redstone_indicator_block_lever_off_blank",
+    "ancindicators:redstone_indicator_block_lever_off_darkened"
   ]
 }

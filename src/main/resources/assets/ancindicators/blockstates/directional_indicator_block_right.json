@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ancindicators:block/directional_indicator_block_right"
+    },
+    "facing=east": {
+      "model": "ancindicators:block/directional_indicator_block_right",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ancindicators:block/directional_indicator_block_right",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ancindicators:block/directional_indicator_block_right",
+      "y": 270
+    }
+  }
+}

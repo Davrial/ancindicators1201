@@ -95,6 +95,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .addTag(ModTags.Blocks.NUMERIC_INDICATOR_BLOCKS)
                 .addTag(ModTags.Blocks.BLOCK_COLOR_INDICATOR_BLOCKS)
                 .addTag(ModTags.Blocks.TEXT_COLOR_INDICATOR_BLOCKS)
+                .addTag(ModTags.Blocks.DIRECTIONAL_INDICATOR_BLOCKS)
         ;
 
         this.tag(ModTags.Blocks.ADVANCED_INDICATOR_BLOCKS)
@@ -294,7 +295,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                     ModBlocks.REDSTONE_INDICATOR_BLOCK_14.get(),
                     ModBlocks.REDSTONE_INDICATOR_BLOCK_15.get(),
                     ModBlocks.REDSTONE_INDICATOR_TEMPLATE_BLOCK.get(),
-                    ModBlocks.BLANK_REDSTONE_INDICATOR_BLOCK.get()
+                    ModBlocks.BLANK_REDSTONE_INDICATOR_BLOCK.get(),
+                    ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_BLANK.get(),
+                    ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_REDSTONE.get(),
+                    ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK.get(),
+                    ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED.get()
                 )
         ;
 
@@ -317,6 +322,18 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_15.get(),
                         ModBlocks.LIGHT_LEVEL_INDICATOR_TEMPLATE_BLOCK.get(),
                         ModBlocks.BLANK_LIGHT_LEVEL_INDICATOR_BLOCK.get()
+                )
+        ;
+
+        this.tag(ModTags.Blocks.DIRECTIONAL_INDICATOR_BLOCKS)
+                .add(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_DOWN.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_LEFT.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_RIGHT.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get()
                 )
         ;
 
@@ -398,7 +415,17 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_MAGENTA.get(),
                         ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_PINK.get(),
                         ModBlocks.TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK.get(),
-                        ModBlocks.DARKENED_BLANK_INDICATOR_BLOCK.get()
+                        ModBlocks.DARKENED_BLANK_INDICATOR_BLOCK.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_DOWN.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_LEFT.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_RIGHT.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get(),
+                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_BLANK.get(),
+                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK.get()
                 )
         ;
 
@@ -430,7 +457,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_DIAMOND.get(),
                         ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_LAPIS.get(),
                         ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_AMETHYST.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK_DARKENED.get()
+                        ModBlocks.TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK_DARKENED.get(),
+                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED.get()
                 )
         ;
 
@@ -451,7 +479,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.REDSTONE_INDICATOR_BLOCK_13.get(),
                         ModBlocks.REDSTONE_INDICATOR_BLOCK_14.get(),
                         ModBlocks.REDSTONE_INDICATOR_BLOCK_15.get(),
-                        ModBlocks.REDSTONE_INDICATOR_TEMPLATE_BLOCK.get()
+                        ModBlocks.REDSTONE_INDICATOR_TEMPLATE_BLOCK.get(),
+                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_REDSTONE.get()
                 )
         ;
         this.tag(ModTags.Blocks.ERASABLE_TO_PLAIN_REDSTONE_BLOCKS).add(ModBlocks.BLANK_REDSTONE_INDICATOR_BLOCK.get());

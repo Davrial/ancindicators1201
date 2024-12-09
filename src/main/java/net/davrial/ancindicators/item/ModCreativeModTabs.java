@@ -39,9 +39,9 @@ public class ModCreativeModTabs {
     public static final RegistryObject<CreativeModeTab> ANCINDICATORS_PAINTS_TAB =
             CREATIVE_MODE_TABS.register("ancindicators_paints_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BOTTLE_OF_PAINT_BASE.get()))
-                    .title(Component.translatable("creativetab.ancindicators_misc_items_tab"))
+                    .title(Component.translatable("creativetab.ancindicators_paints_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        //Misc Items
+                        //Paints Items
                         pOutput.accept(ModItems.BOTTLE_OF_PAINT_BASE.get());
                         pOutput.accept(ModItems.VESSEL_OF_INFINITE_LIGHT.get());
                         pOutput.accept(ModItems.FLASK_OF_ETERNAL_DARKNESS.get());
@@ -68,7 +68,7 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.INDICATOR_STAIRS.get()))
                     .title(Component.translatable("creativetab.ancindicators_decorative_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        //Misc Items
+                        //Decorative Items
                         pOutput.accept(ModBlocks.BLANK_INDICATOR_BLOCK.get());
                         pOutput.accept(ModBlocks.INDICATOR_SLAB.get());
                         pOutput.accept(ModBlocks.INDICATOR_STAIRS.get());
@@ -245,6 +245,16 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_13.get());
                         pOutput.accept(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_14.get());
                         pOutput.accept(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_15.get());
+
+                        //Direction Blocks
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP.get());
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_DOWN.get());
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_LEFT.get());
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_RIGHT.get());
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get());
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get());
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
 
                     })
                     .build()
@@ -437,6 +447,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.REDSTONE_INDICATOR_BLOCK_13.get());
                         pOutput.accept(ModBlocks.REDSTONE_INDICATOR_BLOCK_14.get());
                         pOutput.accept(ModBlocks.REDSTONE_INDICATOR_BLOCK_15.get());
+                        pOutput.accept(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_BLANK.get());
+                        pOutput.accept(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_REDSTONE.get());
+                        pOutput.accept(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK.get());
+                        pOutput.accept(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED.get());
                     })
                     .build()
     );
@@ -468,6 +482,24 @@ public class ModCreativeModTabs {
                     })
                     .build()
     );
+
+    public static final RegistryObject<CreativeModeTab> ANCINDICATORS_DIRECTIONAL_BLOCKS_TAB =
+            CREATIVE_MODE_TABS.register("ancindicators_directional_blocks_tab",
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get()))
+                            .title(Component.translatable("creativetab.ancindicators_directional_blocks_tab"))
+                            .displayItems((pParameters, pOutput) -> {
+                                //Direction Blocks
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP.get());
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_DOWN.get());
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_LEFT.get());
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_RIGHT.get());
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get());
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get());
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
+                            })
+                            .build()
+            );
 
     //ITEM TABS
     public static final RegistryObject<CreativeModeTab> ANCINDICATORS_ALL_ITEMS_TAB =

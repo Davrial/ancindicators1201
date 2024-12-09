@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ancindicators:block/directional_indicator_indicated_face",
+    "up": "ancindicators:block/directional_indicator_opposite_face",
+    "north": "ancindicators:block/directional_indicator_down",
+    "east": "ancindicators:block/directional_indicator_down",
+    "south": "ancindicators:block/directional_indicator_down",
+    "west": "ancindicators:block/directional_indicator_down",
+    "particle": "ancindicators:block/directional_indicator_indicated_face"
+  },
+  "render_type": "solid"
+}

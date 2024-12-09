@@ -190,6 +190,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_13);
         blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_14);
         blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_15);
+        blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_BLANK);
+        blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_REDSTONE);
+        blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK);
+        blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED);
 
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_0);
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_1);
@@ -208,6 +212,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_14);
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_15);
 
+        //Directional Blocks
+        /*
+        blockWithItem(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP);
+        blockWithItem(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_DOWN);
+        blockWithItem(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_LEFT);
+        blockWithItem(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_RIGHT);
+        blockWithItem(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE);
+        blockWithItem(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW);
+        blockWithItem(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY);
+        blockWithItem(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS);
+
+         */
 
 
     }

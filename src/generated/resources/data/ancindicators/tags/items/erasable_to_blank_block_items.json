@@ -73,6 +73,16 @@
     "ancindicators:block_color_indicator_block_magenta",
     "ancindicators:block_color_indicator_block_pink",
     "ancindicators:text_color_indicator_template_block",
-    "ancindicators:darkened_blank_indicator_block"
+    "ancindicators:darkened_blank_indicator_block",
+    "ancindicators:directional_indicator_block_up",
+    "ancindicators:directional_indicator_block_down",
+    "ancindicators:directional_indicator_block_left",
+    "ancindicators:directional_indicator_block_right",
+    "ancindicators:directional_indicator_block_clockwise",
+    "ancindicators:directional_indicator_block_ccw",
+    "ancindicators:directional_indicator_block_away",
+    "ancindicators:directional_indicator_block_towards",
+    "ancindicators:redstone_indicator_block_lever_on_blank",
+    "ancindicators:redstone_indicator_block_lever_off_blank"
   ]
 }

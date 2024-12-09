@@ -201,6 +201,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_13.get());
         this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_14.get());
         this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_15.get());
+        this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_BLANK.get());
+        this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_REDSTONE.get());
+        this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK.get());
+        this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED.get());
 
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_0.get());
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_1.get());
@@ -218,6 +222,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_13.get());
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_14.get());
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_15.get());
+
+        //Directiona Blocks
+        this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP.get());
+        this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_DOWN.get());
+        this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_LEFT.get());
+        this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_RIGHT.get());
+        this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get());
+        this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
+        this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get());
+        this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
 
 
 

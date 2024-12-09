@@ -27,6 +27,7 @@
     "ancindicators:text_color_indicator_block_material_diamond",
     "ancindicators:text_color_indicator_block_material_lapis",
     "ancindicators:text_color_indicator_block_material_amethyst",
-    "ancindicators:text_color_indicator_template_block_darkened"
+    "ancindicators:text_color_indicator_template_block_darkened",
+    "ancindicators:redstone_indicator_block_lever_off_darkened"
   ]
 }
