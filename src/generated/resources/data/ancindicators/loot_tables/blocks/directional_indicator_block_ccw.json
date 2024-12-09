@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ancindicators:directional_indicator_block_ccw"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "ancindicators:blocks/directional_indicator_block_ccw"
+}
