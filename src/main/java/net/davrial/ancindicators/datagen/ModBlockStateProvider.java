@@ -16,6 +16,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         /*
+        //Sapphire Blocks from tutorial
         blockWithItem(ModBlocks.SAPPHIRE_BLOCK);
         blockWithItem(ModBlocks.RAW_SAPPHIRE_BLOCK);
 
@@ -43,6 +44,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         //FILL IN BLOCKS HERE
         //Main Blocks
+        //Done
+        /*
         blockWithItem(ModBlocks.BLANK_INDICATOR_BLOCK);
         blockWithItem(ModBlocks.DARKENED_BLANK_INDICATOR_BLOCK);
         blockWithItem(ModBlocks.ALPHABETIC_INDICATOR_TEMPLATE_BLOCK);
@@ -54,6 +57,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.BLANK_REDSTONE_INDICATOR_BLOCK);
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_TEMPLATE_BLOCK);
         blockWithItem(ModBlocks.BLANK_LIGHT_LEVEL_INDICATOR_BLOCK);
+         */
+
+
+        //Nonstandard Blocks
+        /*
         stairsBlock(((StairBlock) ModBlocks.INDICATOR_STAIRS.get()), blockTexture(ModBlocks.BLANK_INDICATOR_BLOCK.get()));
         pressurePlateBlock(((PressurePlateBlock) ModBlocks.INDICATOR_PRESSURE_PLATE.get()), blockTexture(ModBlocks.BLANK_INDICATOR_BLOCK.get()));
         doorBlockWithRenderType(((DoorBlock) ModBlocks.INDICATOR_DOOR.get()), modLoc("block/indicator_door_bottom"), modLoc("block/indicator_door_top"), "cutout");
@@ -64,10 +72,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         doorBlockWithRenderType(((DoorBlock) ModBlocks.DARKENED_INDICATOR_DOOR.get()), modLoc("block/darkened_indicator_door_bottom"), modLoc("block/darkened_indicator_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.DARKENED_INDICATOR_TRAPDOOR.get()), modLoc("block/darkened_indicator_trapdoor"), true, "cutout");
 
+         */
 
 
 
+        //Done
         //Alphabetic Blocks
+        /*
         blockWithItem(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_A);
         blockWithItem(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_B);
         blockWithItem(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_C);
@@ -95,7 +106,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_Y);
         blockWithItem(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_Z);
 
+         */
+
+        //Done
         //Numeric Blocks
+        /*
         blockWithItem(ModBlocks.NUMERIC_INDICATOR_BLOCK_0);
         blockWithItem(ModBlocks.NUMERIC_INDICATOR_BLOCK_1);
         blockWithItem(ModBlocks.NUMERIC_INDICATOR_BLOCK_2);
@@ -125,7 +140,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.NUMERIC_INDICATOR_BLOCK_DIVIDE);
         blockWithItem(ModBlocks.NUMERIC_INDICATOR_BLOCK_EQUALS);
 
+         */
+
+        //Done
         //Block Color Blocks
+        /*
         blockWithItem(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_WHITE);
         blockWithItem(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_LIGHT_GRAY);
         blockWithItem(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_GRAY);
@@ -143,8 +162,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_MAGENTA);
         blockWithItem(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_PINK);
 
+         */
 
+
+        //Done
         //Text Color Blocks
+        /*
         blockWithItem(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_BLACK);
         blockWithItem(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_DARK_BLUE);
         blockWithItem(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_DARK_GREEN);
@@ -173,7 +196,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_LAPIS);
         blockWithItem(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_AMETHYST);
 
+         */
+
+        //Done
         //Redstone Blocks
+        /*
         blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_0);
         blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_1);
         blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_2);
@@ -195,6 +222,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK);
         blockWithItem(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED);
 
+         */
+
+        //Done
+        /*
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_0);
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_1);
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_2);
@@ -212,6 +243,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_14);
         blockWithItem(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_15);
 
+         */
+
         //Directional Blocks
         /*
         blockWithItem(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP);
@@ -225,11 +258,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
          */
 
+        //Done
         //Time Blocks
+        /*
         blockWithItem(ModBlocks.TIME_INDICATOR_BLOCK_DAWN);
         blockWithItem(ModBlocks.TIME_INDICATOR_BLOCK_NOON);
         blockWithItem(ModBlocks.TIME_INDICATOR_BLOCK_DUSK);
         blockWithItem(ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT);
+
+         */
 
 
     }

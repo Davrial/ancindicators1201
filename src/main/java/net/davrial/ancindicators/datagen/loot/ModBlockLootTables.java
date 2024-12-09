@@ -51,7 +51,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         */
 
         //FILL IN BLOCKS HERE
+
+        //Done
         //Main Blocks
+        /*
         this.dropSelf(ModBlocks.BLANK_INDICATOR_BLOCK.get());
         this.dropSelf(ModBlocks.DARKENED_BLANK_INDICATOR_BLOCK.get());
         this.dropSelf(ModBlocks.ALPHABETIC_INDICATOR_TEMPLATE_BLOCK.get());
@@ -64,6 +67,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_TEMPLATE_BLOCK.get());
         this.dropSelf(ModBlocks.BLANK_LIGHT_LEVEL_INDICATOR_BLOCK.get());
 
+         */
+
+        //Done
+        //Nonstandard Blocks
+        /*
         this.add(ModBlocks.INDICATOR_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.INDICATOR_SLAB.get()));
         this.dropSelf(ModBlocks.INDICATOR_STAIRS.get());
@@ -80,7 +88,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DARKENED_INDICATOR_PRESSURE_PLATE.get());
         this.dropSelf(ModBlocks.DARKENED_INDICATOR_TRAPDOOR.get());
 
+         */
+
+        //Done
         //Alphabetic Blocks
+        /*
         this.dropSelf(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_A.get());
         this.dropSelf(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_B.get());
         this.dropSelf(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_C.get());
@@ -108,7 +120,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_Y.get());
         this.dropSelf(ModBlocks.ALPHABETIC_INDICATOR_BLOCK_Z.get());
 
+         */
+
+        //Done
         //Numeric Blocks
+        /*
         this.dropSelf(ModBlocks.NUMERIC_INDICATOR_BLOCK_0.get());
         this.dropSelf(ModBlocks.NUMERIC_INDICATOR_BLOCK_1.get());
         this.dropSelf(ModBlocks.NUMERIC_INDICATOR_BLOCK_2.get());
@@ -138,7 +154,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.NUMERIC_INDICATOR_BLOCK_DIVIDE.get());
         this.dropSelf(ModBlocks.NUMERIC_INDICATOR_BLOCK_EQUALS.get());
 
+         */
+
+        //Done
         //Block Color Blocks
+        /*
         this.dropSelf(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_WHITE.get());
         this.dropSelf(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_LIGHT_GRAY.get());
         this.dropSelf(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_GRAY.get());
@@ -156,7 +176,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_MAGENTA.get());
         this.dropSelf(ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_PINK.get());
 
+         */
+
+        //Done
         //Text Color Blocks
+        /*
         this.dropSelf(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_BLACK.get());
         this.dropSelf(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_DARK_BLUE.get());
         this.dropSelf(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_DARK_GREEN.get());
@@ -185,6 +209,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_LAPIS.get());
         this.dropSelf(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_AMETHYST.get());
 
+         */
+
+        //Done
+        //Redstone Blocks
+        /*
         this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_0.get());
         this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_1.get());
         this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_2.get());
@@ -206,6 +235,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK.get());
         this.dropSelf(ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED.get());
 
+         */
+
+        //Done
+        //Light Blocks
+        /*
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_0.get());
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_1.get());
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_2.get());
@@ -223,7 +257,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_14.get());
         this.dropSelf(ModBlocks.LIGHT_LEVEL_INDICATOR_BLOCK_15.get());
 
+         */
+
+        //Done
         //Directiona Blocks
+        /*
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP.get());
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_DOWN.get());
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_LEFT.get());
@@ -233,16 +271,27 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get());
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
 
-        //Directiona Blocks
+         */
+
+        //Done
+        //Time Blocks
+        /*
         this.dropSelf(ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get());
         this.dropSelf(ModBlocks.TIME_INDICATOR_BLOCK_NOON.get());
         this.dropSelf(ModBlocks.TIME_INDICATOR_BLOCK_DUSK.get());
         this.dropSelf(ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT.get());
 
+         */
 
 
+
+        //Done
+        //Misc Blocks
+        /*
         this.dropSelf(ModBlocks.DARKNESS_BLOCK.get());
         this.dropSelf(ModBlocks.LIGHT_BLOCK.get());
+
+         */
 
 
     }
