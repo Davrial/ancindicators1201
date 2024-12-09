@@ -225,6 +225,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
          */
 
+        //Time Blocks
+        blockWithItem(ModBlocks.TIME_INDICATOR_BLOCK_DAWN);
+        blockWithItem(ModBlocks.TIME_INDICATOR_BLOCK_NOON);
+        blockWithItem(ModBlocks.TIME_INDICATOR_BLOCK_DUSK);
+        blockWithItem(ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT);
+
 
     }
 

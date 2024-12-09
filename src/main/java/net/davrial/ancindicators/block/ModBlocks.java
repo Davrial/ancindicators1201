@@ -409,6 +409,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_TOWARDS  = registerBlock("directional_indicator_block_towards",
             () -> new DirectionalIndicatorBlockTowardsBlock());
 
+    //Time Blocks
+    public static final RegistryObject<Block> TIME_INDICATOR_BLOCK_DAWN  = registerBlock("time_indicator_block_dawn",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+    public static final RegistryObject<Block> TIME_INDICATOR_BLOCK_NOON  = registerBlock("time_indicator_block_noon",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+    public static final RegistryObject<Block> TIME_INDICATOR_BLOCK_DUSK  = registerBlock("time_indicator_block_dusk",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+    public static final RegistryObject<Block> TIME_INDICATOR_BLOCK_MIDNIGHT  = registerBlock("time_indicator_block_midnight",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+
+
 
 
     public static final RegistryObject<Block> DARKNESS_BLOCK  = registerBlock("darkness_block",

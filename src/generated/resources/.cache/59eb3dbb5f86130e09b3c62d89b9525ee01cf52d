@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-09T00:50:06.4034797	Loot Tables
+// 1.20.1	2024-12-09T03:09:33.515134	Loot Tables
 3e020a012f0b690c88362ba92973838dd450fe0f data/ancindicators/loot_tables/blocks/alphabetic_indicator_block_a.json
 d2c9c188997cd68c4b9a1ef7a40d804ef3138a61 data/ancindicators/loot_tables/blocks/alphabetic_indicator_block_b.json
 e9f82451fc3ed030766e255c0890dfd14582cfb7 data/ancindicators/loot_tables/blocks/alphabetic_indicator_block_c.json
@@ -163,3 +163,7 @@ cfeb8294fe0c15c64a1d33dd2a38074219b353f7 data/ancindicators/loot_tables/blocks/t
 ffd85585c7bf854858e0c0d88ffbd3dd988e485c data/ancindicators/loot_tables/blocks/text_color_indicator_block_yellow.json
 cb56642bedcc0db84e5c08b825db98f7141e7d75 data/ancindicators/loot_tables/blocks/text_color_indicator_template_block.json
 684b7641bdccd33d04f65376c42ca5ce38a5cbaa data/ancindicators/loot_tables/blocks/text_color_indicator_template_block_darkened.json
+3103ec1a686ae99f242cd030672d42b38e276321 data/ancindicators/loot_tables/blocks/time_indicator_block_dawn.json
+de06717a3784eb9065f281f8d522de5c501168cc data/ancindicators/loot_tables/blocks/time_indicator_block_dusk.json
+98864f66654c2b4e1ba547ad15395f6d07aa499e data/ancindicators/loot_tables/blocks/time_indicator_block_midnight.json
+1953c7902586bb495ac3ebb51d46a74a8d44afac data/ancindicators/loot_tables/blocks/time_indicator_block_noon.json

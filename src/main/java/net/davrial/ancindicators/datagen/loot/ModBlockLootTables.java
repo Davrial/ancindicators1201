@@ -233,6 +233,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get());
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
 
+        //Directiona Blocks
+        this.dropSelf(ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get());
+        this.dropSelf(ModBlocks.TIME_INDICATOR_BLOCK_NOON.get());
+        this.dropSelf(ModBlocks.TIME_INDICATOR_BLOCK_DUSK.get());
+        this.dropSelf(ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT.get());
+
 
 
         this.dropSelf(ModBlocks.DARKNESS_BLOCK.get());

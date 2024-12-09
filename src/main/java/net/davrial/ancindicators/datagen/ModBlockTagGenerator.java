@@ -337,6 +337,14 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 )
         ;
 
+        this.tag(ModTags.Blocks.TIME_INDICATOR_BLOCKS)
+                .add(ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get(),
+                        ModBlocks.TIME_INDICATOR_BLOCK_NOON.get(),
+                        ModBlocks.TIME_INDICATOR_BLOCK_DUSK.get(),
+                        ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT.get()
+                )
+        ;
+
 
 
         //All Erasable Block Tags
@@ -425,7 +433,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get(),
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get(),
                         ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_BLANK.get(),
-                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK.get()
+                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK.get(),
+                        ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get(),
+                        ModBlocks.TIME_INDICATOR_BLOCK_NOON.get(),
+                        ModBlocks.TIME_INDICATOR_BLOCK_DUSK.get(),
+                        ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT.get()
                 )
         ;
 

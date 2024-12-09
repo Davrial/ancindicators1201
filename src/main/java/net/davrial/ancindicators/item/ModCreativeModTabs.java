@@ -256,6 +256,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get());
                         pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
 
+                        //Time Blocks
+                        pOutput.accept(ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get());
+                        pOutput.accept(ModBlocks.TIME_INDICATOR_BLOCK_NOON.get());
+                        pOutput.accept(ModBlocks.TIME_INDICATOR_BLOCK_DUSK.get());
+                        pOutput.accept(ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT.get());
+
                     })
                     .build()
     );
@@ -497,6 +503,20 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
                                 pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get());
                                 pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
+                            })
+                            .build()
+            );
+
+    public static final RegistryObject<CreativeModeTab> ANCINDICATORS_TIME_BLOCKS_TAB =
+            CREATIVE_MODE_TABS.register("ancindicators_time_blocks_tab",
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get()))
+                            .title(Component.translatable("creativetab.ancindicators_time_blocks_tab"))
+                            .displayItems((pParameters, pOutput) -> {
+                                //Time Blocks
+                                pOutput.accept(ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get());
+                                pOutput.accept(ModBlocks.TIME_INDICATOR_BLOCK_NOON.get());
+                                pOutput.accept(ModBlocks.TIME_INDICATOR_BLOCK_DUSK.get());
+                                pOutput.accept(ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT.get());
                             })
                             .build()
             );

@@ -178,6 +178,10 @@
   "block.ancindicators.directional_indicator_block_clockwise": "Directional Indicator Block: Clockwise",
   "block.ancindicators.directional_indicator_block_ccw": "Directional Indicator Block: Counter-Clockwise",
 
+  "block.ancindicators.time_indicator_block_dawn": "Time Indicator Block: Dawn",
+  "block.ancindicators.time_indicator_block_noon": "Time Indicator Block: Noon / Day",
+  "block.ancindicators.time_indicator_block_dusk": "Time Indicator Block: Dusk",
+  "block.ancindicators.time_indicator_block_midnight": "Time Indicator Block: Midnight / Night",
 
 
 
@@ -332,6 +336,8 @@
   "creativetab.ancindicators_text_color_blocks_tab": "ANC Indicators Text Color Blocks",
   "creativetab.ancindicators_redstone_blocks_tab": "ANC Indicators Redstone Blocks",
   "creativetab.ancindicators_light_level_blocks_tab": "ANC Indicators Light Level Blocks",
+  "creativetab.ancindicators_directional_blocks_tab": "ANC Indicators Directional Blocks",
+  "creativetab.ancindicators_time_blocks_tab": "ANC Indicators Time Blocks",
   "creativetab.ancindicators_all_items_tab": "ANC Indicators All Items",
   "creativetab.ancindicators_base_items_tab": "ANC Indicators Base Items",
   "creativetab.ancindicators_alphabetic_items_tab": "ANC Indicators Alphabetic Items",
@@ -341,6 +347,5 @@
   "creativetab.ancindicators_redstone_items_tab": "ANC Indicators Redstone Items",
   "creativetab.ancindicators_light_level_items_tab": "ANC Indicators Light Level Items",
   "creativetab.ancindicators_decorative_tab": "ANC Indicators Decorative Blocks",
-  "creativetab.ancindicators_directional_blocks_tab": "ANC Indicators Directional Blocks",
   "creativetab.ancindicators_paints_tab": "ANC Indicators Paints"
 }

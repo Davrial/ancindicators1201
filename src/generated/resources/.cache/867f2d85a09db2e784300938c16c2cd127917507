@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-09T00:50:06.4014848	Tags for minecraft:block mod id ancindicators
+// 1.20.1	2024-12-09T03:09:33.5131388	Tags for minecraft:block mod id ancindicators
 3188e4c6df9b5a77d9fe0f0238043374a01afc56 data/ancindicators/tags/blocks/advanced_indicator_blocks.json
 029da9738c6dc4eec84c4523a697a8c9c5d88ee2 data/ancindicators/tags/blocks/all_erasable_blocks.json
 1c58e63bbec43e52d94fb5b76705180c6ce5b37a data/ancindicators/tags/blocks/all_indicator_blocks.json
@@ -8,7 +8,7 @@ e68d5c2d9d478310e6488414b989eb23fdf9dcb2 data/ancindicators/tags/blocks/blank_in
 87c3b1a6485ac32c673a95effbaeda913b9562cd data/ancindicators/tags/blocks/block_color_indicator_blocks.json
 0ccb7efc174314135035cfb72f31cac6b82934ec data/ancindicators/tags/blocks/color_indicator_blocks.json
 3a83e6c440a839f2840cb4b62d60f89579f84938 data/ancindicators/tags/blocks/directional_indicator_blocks.json
-b57e48746aff9cd5de6f0d73b7322aa53c2b190c data/ancindicators/tags/blocks/erasable_to_blank_blocks.json
+f1c9876c8b0abde2b76d68516e7539952f9e31c5 data/ancindicators/tags/blocks/erasable_to_blank_blocks.json
 3b304839aa09bb3e2d0c6e0d8e0513f80f8d0e95 data/ancindicators/tags/blocks/erasable_to_darkened_blocks.json
 c589ce93d2b60dde0d31fdcfee7da07b1a4618ad data/ancindicators/tags/blocks/erasable_to_light_level_blocks.json
 590ac2bbdfa651d3ed35b44441eb6d91778ead64 data/ancindicators/tags/blocks/erasable_to_plain_glowstone_blocks.json
@@ -34,6 +34,7 @@ a95d3a4a2be475c3778e0cf8aaa6dc764274dd5a data/ancindicators/tags/blocks/paintabl
 ba08dba6371b4b7e7458b53005694efbc308e011 data/ancindicators/tags/blocks/redstone_indicator_blocks.json
 a4982317c4f807837768b3179b7676dc1fc0c161 data/ancindicators/tags/blocks/text_color_indicator_blocks.json
 0496671233e362b57703d446ba6e6bc9518b3692 data/ancindicators/tags/blocks/text_color_indicator_blocks_dark.json
+075c611d393390409c77400a31924f1f3dacc890 data/ancindicators/tags/blocks/time_indicator_blocks.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/fences.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/fence_gates.json
