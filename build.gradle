@@ -9,6 +9,7 @@ plugins {
 version = mod_version
 group = mod_group_id
 
+
 base {
     archivesName = mod_id
 }
@@ -123,6 +124,7 @@ minecraft {
         }
 
         data {
+
             workingDirectory project.file('run')
 
             property 'forge.logging.markers', 'REGISTRIES'
@@ -192,11 +194,15 @@ def replaceProperties = [
         mod_authors: mod_authors, mod_description: mod_description
 ]
 processResources {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
     inputs.properties replaceProperties
     replaceProperties.put 'project', project
 
     filesMatching(resourceTargets) {
         expand replaceProperties
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
     }
 }
 
