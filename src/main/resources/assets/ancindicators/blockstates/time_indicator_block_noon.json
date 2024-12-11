@@ -1,7 +1,20 @@
 {
   "variants": {
-    "": {
-      "model": "ancindicators:block/time_indicator_block_noon"
+    "facing=north": {
+      "model": "ancindicators:block/time_indicator_block_noon",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ancindicators:block/time_indicator_block_noon",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "ancindicators:block/time_indicator_block_noon",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "ancindicators:block/time_indicator_block_noon",
+      "y": 90
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "ancindicators:block/redstone_indicator_block_lever_on_blank"
+    "all": "ancindicators:block/redstone_indicator_lever_on_blank"
   }
 }

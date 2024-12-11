@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "group": "blank_indicator_block",
+  "ingredient":
+      {      "tag": "ancindicators:erasable_to_blank_block_items"
+      },
+  "result": "ancindicators:blank_indicator_block"
+}

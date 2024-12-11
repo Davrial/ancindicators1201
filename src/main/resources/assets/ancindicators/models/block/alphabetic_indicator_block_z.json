@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "ancindicators:block/alphabetic_indicator_block_z"
+    "all": "ancindicators:block/alphabetic_indicator_z"
   }
 }

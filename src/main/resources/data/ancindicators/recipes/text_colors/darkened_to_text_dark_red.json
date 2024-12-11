@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {      "item": "ancindicators:darkened_blank_indicator_block"    },
+    [{      "item": "ancindicators:text_color_indicator_template_block_darkened"    },
+      {      "item": "ancindicators:darkened_blank_indicator_block"    }
+    ],
     {      "item": "minecraft:red_dye"    },
     {     "tag":  "ancindicators:indicator_darkening_items_with_dyes"}
   ],

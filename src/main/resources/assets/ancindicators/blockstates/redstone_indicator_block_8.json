@@ -1,7 +1,20 @@
 {
   "variants": {
-    "": {
-      "model": "ancindicators:block/redstone_indicator_block_8"
+    "facing=north": {
+      "model": "ancindicators:block/redstone_indicator_block_8",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ancindicators:block/redstone_indicator_block_8",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "ancindicators:block/redstone_indicator_block_8",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "ancindicators:block/redstone_indicator_block_8",
+      "y": 90
     }
   }
 }

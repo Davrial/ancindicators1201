@@ -1,7 +1,20 @@
 {
   "variants": {
-    "": {
-      "model": "ancindicators:block/light_level_indicator_block_7"
+    "facing=north": {
+      "model": "ancindicators:block/light_level_indicator_block_7",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ancindicators:block/light_level_indicator_block_7",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "ancindicators:block/light_level_indicator_block_7",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "ancindicators:block/light_level_indicator_block_7",
+      "y": 90
     }
   }
 }

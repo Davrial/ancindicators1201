@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "block_color_indicator_template_block",
+  "ingredients": [
+    {      "item": "ancindicators:blank_indicator_block"    },
+    [     {"item": "minecraft:white_wool"},
+          {"item": "minecraft:terracotta"},
+          {"item": "minecraft:white_concrete_powder"},
+          {"item": "minecraft:white_concrete"},
+          {"item": "minecraft:glass"}
+    ],
+    {     "item": "minecraft:red_dye"},
+    {     "item": "minecraft:green_dye"},
+    {     "item": "minecraft:blue_dye"}
+  ],
+  "result": {    "item": "ancindicators:block_color_indicator_template_block",  "count": 6  }
+}

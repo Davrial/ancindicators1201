@@ -84,136 +84,136 @@ public class ModBlocks {
     public static final RegistryObject<Block> DARKENED_BLANK_INDICATOR_BLOCK  = registerBlock("darkened_blank_indicator_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.STONE)));
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_TEMPLATE_BLOCK  = registerBlock("alphabetic_indicator_template_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_TEMPLATE_BLOCK  = registerBlock("numeric_indicator_template_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
     public static final RegistryObject<Block> BLOCK_COLOR_INDICATOR_TEMPLATE_BLOCK  = registerBlock("block_color_indicator_template_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK  = registerBlock("text_color_indicator_template_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK_DARKENED  = registerBlock("text_color_indicator_template_block_darkened",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableDarkenedIndicatorBlock());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_TEMPLATE_BLOCK  = registerBlock("redstone_indicator_template_block",
-            () -> new RedstoneIndicatorBlock15(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock15());
     public static final RegistryObject<Block> BLANK_REDSTONE_INDICATOR_BLOCK  = registerBlock("blank_redstone_indicator_block",
-            () -> new RedstoneIndicatorBlock15(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock15());
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_TEMPLATE_BLOCK  = registerBlock("light_level_indicator_template_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 15).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 15)));
     public static final RegistryObject<Block> BLANK_LIGHT_LEVEL_INDICATOR_BLOCK  = registerBlock("blank_light_level_indicator_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 15).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 15)));
 
 
-    //Alphabetic Blocks
+    //Alphabetic Letter Blocks
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_A  = registerBlock("alphabetic_indicator_block_a",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_B  = registerBlock("alphabetic_indicator_block_b",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_C  = registerBlock("alphabetic_indicator_block_c",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_D  = registerBlock("alphabetic_indicator_block_d",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_E  = registerBlock("alphabetic_indicator_block_e",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_F  = registerBlock("alphabetic_indicator_block_f",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_G  = registerBlock("alphabetic_indicator_block_g",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_H  = registerBlock("alphabetic_indicator_block_h",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_I  = registerBlock("alphabetic_indicator_block_i",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_J  = registerBlock("alphabetic_indicator_block_j",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_K  = registerBlock("alphabetic_indicator_block_k",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_L  = registerBlock("alphabetic_indicator_block_l",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_M  = registerBlock("alphabetic_indicator_block_m",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_N  = registerBlock("alphabetic_indicator_block_n",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_O  = registerBlock("alphabetic_indicator_block_o",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_P  = registerBlock("alphabetic_indicator_block_p",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_Q  = registerBlock("alphabetic_indicator_block_q",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_R  = registerBlock("alphabetic_indicator_block_r",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_S  = registerBlock("alphabetic_indicator_block_s",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_T  = registerBlock("alphabetic_indicator_block_t",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_U  = registerBlock("alphabetic_indicator_block_u",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_V  = registerBlock("alphabetic_indicator_block_v",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_W  = registerBlock("alphabetic_indicator_block_w",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_X  = registerBlock("alphabetic_indicator_block_x",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_Y  = registerBlock("alphabetic_indicator_block_y",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> ALPHABETIC_INDICATOR_BLOCK_Z  = registerBlock("alphabetic_indicator_block_z",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
 
     //Numeric Blocks
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_0  = registerBlock("numeric_indicator_block_0",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_1  = registerBlock("numeric_indicator_block_1",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_2  = registerBlock("numeric_indicator_block_2",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_3  = registerBlock("numeric_indicator_block_3",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_4  = registerBlock("numeric_indicator_block_4",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_5  = registerBlock("numeric_indicator_block_5",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_6  = registerBlock("numeric_indicator_block_6",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_7  = registerBlock("numeric_indicator_block_7",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_8  = registerBlock("numeric_indicator_block_8",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_9  = registerBlock("numeric_indicator_block_9",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_10  = registerBlock("numeric_indicator_block_10",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_11  = registerBlock("numeric_indicator_block_11",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_12  = registerBlock("numeric_indicator_block_12",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_13  = registerBlock("numeric_indicator_block_13",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_14  = registerBlock("numeric_indicator_block_14",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_15  = registerBlock("numeric_indicator_block_15",
-            () -> new WeakRedstoneIndicatorBlock15(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_16  = registerBlock("numeric_indicator_block_16",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_32  = registerBlock("numeric_indicator_block_32",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_64  = registerBlock("numeric_indicator_block_64",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_1000  = registerBlock("numeric_indicator_block_1000",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_EVEN  = registerBlock("numeric_indicator_block_even",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_ODD  = registerBlock("numeric_indicator_block_odd",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_INFINITY  = registerBlock("numeric_indicator_block_infinity",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_ADD  = registerBlock("numeric_indicator_block_add",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_SUBTRACT  = registerBlock("numeric_indicator_block_subtract",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_MULTIPLY  = registerBlock("numeric_indicator_block_multiply",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_DIVIDE  = registerBlock("numeric_indicator_block_divide",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> NUMERIC_INDICATOR_BLOCK_EQUALS  = registerBlock("numeric_indicator_block_equals",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
 
     //Block Color Blocks
     public static final RegistryObject<Block> BLOCK_COLOR_INDICATOR_BLOCK_WHITE  = registerBlock("block_color_indicator_block_white",
@@ -308,90 +308,90 @@ public class ModBlocks {
 
     //Redstone Signal Blocks
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_0  = registerBlock("redstone_indicator_block_0",
-            () -> new RedstoneIndicatorBlock0(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock0());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_1  = registerBlock("redstone_indicator_block_1",
-            () -> new RedstoneIndicatorBlock1(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock1());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_2  = registerBlock("redstone_indicator_block_2",
-            () -> new RedstoneIndicatorBlock2(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock2());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_3  = registerBlock("redstone_indicator_block_3",
-            () -> new RedstoneIndicatorBlock3(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock3());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_4  = registerBlock("redstone_indicator_block_4",
-            () -> new RedstoneIndicatorBlock4(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock4());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_5  = registerBlock("redstone_indicator_block_5",
-            () -> new RedstoneIndicatorBlock5(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock5());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_6  = registerBlock("redstone_indicator_block_6",
-            () -> new RedstoneIndicatorBlock6(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock6());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_7  = registerBlock("redstone_indicator_block_7",
-            () -> new RedstoneIndicatorBlock7(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock7());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_8  = registerBlock("redstone_indicator_block_8",
-            () -> new RedstoneIndicatorBlock8(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock8());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_9  = registerBlock("redstone_indicator_block_9",
-            () -> new RedstoneIndicatorBlock9(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock9());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_10  = registerBlock("redstone_indicator_block_10",
-            () -> new RedstoneIndicatorBlock10(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock10());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_11  = registerBlock("redstone_indicator_block_11",
-            () -> new RedstoneIndicatorBlock11(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock11());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_12  = registerBlock("redstone_indicator_block_12",
-            () -> new RedstoneIndicatorBlock12(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock12());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_13  = registerBlock("redstone_indicator_block_13",
-            () -> new RedstoneIndicatorBlock13(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock13());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_14  = registerBlock("redstone_indicator_block_14",
-            () -> new RedstoneIndicatorBlock14(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock14());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_15  = registerBlock("redstone_indicator_block_15",
-            () -> new RedstoneIndicatorBlock15(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock15());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_LEVER_ON_BLANK  = registerBlock("redstone_indicator_block_lever_on_blank",
-            () -> new RedstoneIndicatorBlock15(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RedstoneIndicatorBlock15());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK  = registerBlock("redstone_indicator_block_lever_off_blank",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_LEVER_ON_REDSTONE  = registerBlock("redstone_indicator_block_lever_on_redstone",
-            () -> new RedstoneIndicatorBlock15(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.FIRE).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RedstoneIndicatorBlock15());
     public static final RegistryObject<Block> REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED  = registerBlock("redstone_indicator_block_lever_off_darkened",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.STONE)));
+            () -> new RotatableDarkenedIndicatorBlock());
 
 
     //Light Level Blocks
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_0  = registerBlock("light_level_indicator_block_0",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 0).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 0)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_1  = registerBlock("light_level_indicator_block_1",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 1).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 1)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_2  = registerBlock("light_level_indicator_block_2",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 2).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 2)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_3  = registerBlock("light_level_indicator_block_3",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 3).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 3)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_4  = registerBlock("light_level_indicator_block_4",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 4).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 4)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_5  = registerBlock("light_level_indicator_block_5",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 5).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 5)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_6  = registerBlock("light_level_indicator_block_6",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 6).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 6)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_7  = registerBlock("light_level_indicator_block_7",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 7).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 7)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_8  = registerBlock("light_level_indicator_block_8",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 8).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 8)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_9  = registerBlock("light_level_indicator_block_9",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 9).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 9)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_10  = registerBlock("light_level_indicator_block_10",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 10).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 10)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_11  = registerBlock("light_level_indicator_block_11",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 11).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 11)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_12  = registerBlock("light_level_indicator_block_12",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 12).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 12)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_13  = registerBlock("light_level_indicator_block_13",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 13).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 13)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_14  = registerBlock("light_level_indicator_block_14",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 14).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 14)));
     public static final RegistryObject<Block> LIGHT_LEVEL_INDICATOR_BLOCK_15  = registerBlock("light_level_indicator_block_15",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).mapColor(MapColor.SAND).lightLevel(s -> 15).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)));
+            () -> new RotatableLightIndicatorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.GLASS).mapColor(MapColor.SAND).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 15)));
 
     //Directional Blocks
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_UP  = registerBlock("directional_indicator_block_up",
-            () -> new DirectionalIndicatorBlockUpBlock());
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_DOWN  = registerBlock("directional_indicator_block_down",
-            () -> new DirectionalIndicatorBlockDownBlock());
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_LEFT  = registerBlock("directional_indicator_block_left",
-            () -> new DirectionalIndicatorBlockLeftBlock());
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_RIGHT  = registerBlock("directional_indicator_block_right",
-            () -> new DirectionalIndicatorBlockRightBlock());
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE  = registerBlock("directional_indicator_block_clockwise",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_CCW  = registerBlock("directional_indicator_block_ccw",
@@ -405,19 +405,19 @@ public class ModBlocks {
     //public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_DIAGONAL_DR  = registerBlock("directional_indicator_block_diagonal_dr",
     //        () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_AWAY  = registerBlock("directional_indicator_block_away",
-            () -> new DirectionalIndicatorBlockAwayBlock());
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_TOWARDS  = registerBlock("directional_indicator_block_towards",
-            () -> new DirectionalIndicatorBlockTowardsBlock());
+            () -> new RotatableIndicatorBlock());
 
     //Time Blocks
     public static final RegistryObject<Block> TIME_INDICATOR_BLOCK_DAWN  = registerBlock("time_indicator_block_dawn",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> TIME_INDICATOR_BLOCK_NOON  = registerBlock("time_indicator_block_noon",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> TIME_INDICATOR_BLOCK_DUSK  = registerBlock("time_indicator_block_dusk",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
     public static final RegistryObject<Block> TIME_INDICATOR_BLOCK_MIDNIGHT  = registerBlock("time_indicator_block_midnight",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+            () -> new RotatableIndicatorBlock());
 
 
 
@@ -426,6 +426,7 @@ public class ModBlocks {
             () -> new DarknessBlockBlock());
     public static final RegistryObject<Block> LIGHT_BLOCK  = registerBlock("light_block",
             () -> new LightBlockBlock());
+
 
     public static final RegistryObject<Block> INDICATOR_SLAB  = registerBlock("indicator_slab",
             () -> new IndicatorSlabBlock());
@@ -457,7 +458,17 @@ public class ModBlocks {
 
 
 
+
+
+
+
+
     /*NO CHANGES NEEDED PAST THIS LINE*/
+
+
+
+
+
 
 
 

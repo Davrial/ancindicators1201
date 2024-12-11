@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "text_color_indicator_template_block_darkened",
+  "ingredients": [
+    {      "item": "ancindicators:block_color_indicator_template_block"    },
+    {      "tag": "ancindicators:writing_items"  },
+    {     "item": "minecraft:yellow_dye"},
+    {     "tag":  "ancindicators:indicator_darkening_items"}
+  ],
+  "result": {    "item": "ancindicators:text_color_indicator_template_block_darkened",  "count": 2   }
+}

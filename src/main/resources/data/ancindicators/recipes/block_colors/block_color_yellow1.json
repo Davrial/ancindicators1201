@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {      "item": "ancindicators:block_color_indicator_template_block"    },
+    [{      "item": "ancindicators:block_color_indicator_template_block"    },
+      {      "item": "ancindicators:blank_indicator_block"    }
+    ],
     {      "item": "minecraft:yellow_dye"    }
   ],
   "result": {    "item": "ancindicators:block_color_indicator_block_yellow"  }

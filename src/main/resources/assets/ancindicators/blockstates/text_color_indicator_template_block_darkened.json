@@ -1,7 +1,20 @@
 {
   "variants": {
-    "": {
-      "model": "ancindicators:block/text_color_indicator_template_block_darkened"
+    "facing=north": {
+      "model": "ancindicators:block/text_color_indicator_template_block_darkened",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "ancindicators:block/text_color_indicator_template_block_darkened",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "ancindicators:block/text_color_indicator_template_block_darkened",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "ancindicators:block/text_color_indicator_template_block_darkened",
+      "y": 90
     }
   }
 }

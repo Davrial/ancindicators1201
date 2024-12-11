@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "ancindicators:item/numeric_indicator_item_12"
+    "layer0": "ancindicators:item/numeric_indicator_12"
   }
 }
