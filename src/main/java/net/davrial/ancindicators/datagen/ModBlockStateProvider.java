@@ -258,6 +258,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
          */
 
+        //Directional Decorative
+        blockWithItem(ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK);
+        blockWithItem(ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK);
 
 
         //Done

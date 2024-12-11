@@ -406,6 +406,33 @@ public class ModItems {
     public static final RegistryObject<Item> LIGHT_LEVEL_INDICATOR_ITEM_15 = ITEMS.register("light_level_indicator_item_15",
             () -> new Item(new Item.Properties()));
 
+    //Directional indicator items
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_UP = ITEMS.register("directional_indicator_item_up",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_DOWN = ITEMS.register("directional_indicator_item_down",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_LEFT = ITEMS.register("directional_indicator_item_left",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_RIGHT = ITEMS.register("directional_indicator_item_right",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_AWAY = ITEMS.register("directional_indicator_item_away",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_TOWARDS = ITEMS.register("directional_indicator_item_towards",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_CLOCKWISE = ITEMS.register("directional_indicator_item_clockwise",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_CCW = ITEMS.register("directional_indicator_item_ccw",
+            () -> new Item(new Item.Properties()));
+
+    //Time indicator items
+    public static final RegistryObject<Item> TIME_INDICATOR_ITEM_DAWN = ITEMS.register("time_indicator_item_dawn",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TIME_INDICATOR_ITEM_NOON = ITEMS.register("time_indicator_item_noon",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TIME_INDICATOR_ITEM_DUSK = ITEMS.register("time_indicator_item_dusk",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TIME_INDICATOR_ITEM_MIDNIGHT = ITEMS.register("time_indicator_item_midnight",
+            () -> new Item(new Item.Properties()));
 
 
 

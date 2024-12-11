@@ -427,7 +427,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> LIGHT_BLOCK  = registerBlock("light_block",
             () -> new LightBlockBlock());
 
-
+    //Decorative Blocks
+    //Blank Decorative
     public static final RegistryObject<Block> INDICATOR_SLAB  = registerBlock("indicator_slab",
             () -> new IndicatorSlabBlock());
     public static final RegistryObject<Block> INDICATOR_STAIRS = registerBlock("indicator_stairs",
@@ -441,6 +442,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> INDICATOR_TRAPDOOR = registerBlock("indicator_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).noOcclusion().mapColor(MapColor.QUARTZ), BlockSetType.STONE));
 
+    //Darkened Decorative
     public static final RegistryObject<Block> DARKENED_INDICATOR_SLAB  = registerBlock("darkened_indicator_slab",
             () -> new DarkenedIndicatorSlabBlock());
     public static final RegistryObject<Block> DARKENED_INDICATOR_STAIRS = registerBlock("darkened_indicator_stairs",
@@ -454,6 +456,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> DARKENED_INDICATOR_TRAPDOOR = registerBlock("darkened_indicator_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).noOcclusion().mapColor(MapColor.STONE), BlockSetType.STONE));
 
+    //Directional Decorative
+    public static final RegistryObject<Block> INDICATED_DIRECTION_DECORATIVE_BLOCK  = registerBlock("indicated_direction_decorative_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+    public static final RegistryObject<Block> OPPOSITE_DIRECTION_DECORATIVE_BLOCK  = registerBlock("opposite_direction_decorative_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
 
 
 

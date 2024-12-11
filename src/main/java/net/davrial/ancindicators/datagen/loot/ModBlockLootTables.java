@@ -265,6 +265,8 @@ public class ModBlockLootTables extends BlockLootSubProvider  {
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get());
         this.dropSelf(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
+        this.dropSelf(ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get());
+        this.dropSelf(ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK.get());
 
 
 

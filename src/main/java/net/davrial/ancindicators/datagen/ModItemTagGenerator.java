@@ -61,8 +61,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .addTag(ModTags.Items.NUMERIC_INDICATOR_ITEMS)
                 .addTag(ModTags.Items.BLOCK_COLOR_INDICATOR_ITEMS)
                 .addTag(ModTags.Items.TEXT_COLOR_INDICATOR_ITEMS)
-                .add(ModItems.BLANK_INDICATOR_ITEM.get()                    )
-                .add(ModItems.DARKENED_BLANK_INDICATOR_ITEM.get()                    )
+                .addTag(ModTags.Items.DIRECTIONAL_INDICATOR_ITEMS)
+                .addTag(ModTags.Items.TIME_INDICATOR_ITEMS)
+                .add(ModItems.BLANK_INDICATOR_ITEM.get()         )
+                .add(ModItems.DARKENED_BLANK_INDICATOR_ITEM.get())
         ;
 
         this.tag(ModTags.Items.NON_BLANK_INDICATOR_ITEMS)
@@ -163,6 +165,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .addTag(ModTags.Items.ALPHABETIC_INDICATOR_ITEMS)
                 .addTag(ModTags.Items.NUMERIC_INDICATOR_ITEMS)
                 .addTag(ModTags.Items.BLOCK_COLOR_INDICATOR_ITEMS)
+                .addTag(ModTags.Items.DIRECTIONAL_INDICATOR_ITEMS)
+                .addTag(ModTags.Items.TIME_INDICATOR_ITEMS)
                 .add(ModItems.TEXT_COLOR_INDICATOR_TEMPLATE_ITEM.get(),
                         ModItems.DARKENED_BLANK_INDICATOR_ITEM.get()
                         )
@@ -300,6 +304,26 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 )
         ;
 
+        this.tag(ModTags.Items.DIRECTIONAL_INDICATOR_ITEMS)
+                .add(ModItems.DIRECTIONAL_INDICATOR_ITEM_UP.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_DOWN.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_LEFT.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_RIGHT.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_AWAY.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_TOWARDS.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_CLOCKWISE.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_CCW.get()
+                )
+        ;
+
+        this.tag(ModTags.Items.TIME_INDICATOR_ITEMS)
+                .add(ModItems.TIME_INDICATOR_ITEM_DAWN.get(),
+                        ModItems.TIME_INDICATOR_ITEM_NOON.get(),
+                        ModItems.TIME_INDICATOR_ITEM_DUSK.get(),
+                        ModItems.TIME_INDICATOR_ITEM_MIDNIGHT.get()
+                )
+        ;
+
         this.tag(ModTags.Items.ERASABLE_TO_LIGHT_LEVEL_ITEMS)
                 .add(ModItems.LIGHT_LEVEL_INDICATOR_ITEM_0.get(),
                         ModItems.LIGHT_LEVEL_INDICATOR_ITEM_1.get(),
@@ -434,12 +458,9 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 );
 
         this.tag(ModTags.Items.INDICATOR_DARKENING_ITEMS_WITH_DYES)
+                .addTag(ModTags.Items.INDICATOR_DARKENING_ITEMS)
                 .add(   Items.BLACK_DYE,
-                        Items.GRAY_DYE,
-                        Items.INK_SAC,
-                        Items.COAL,
-                        Items.CHARCOAL,
-                        ModItems.VIAL_OF_DARKENING_SOLUTION_BLACK.get()
+                        Items.GRAY_DYE
                 );
 
         this.tag(ModTags.Items.WRITING_ITEMS)
@@ -548,81 +569,6 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 )
         ;
 
-        this.tag(ModTags.Items.LETTER_A)
-                .add(   Items.ACACIA_BUTTON,Items.ACACIA_DOOR,Items.ACACIA_FENCE,Items.ACACIA_HANGING_SIGN,Items.ACACIA_LEAVES,Items.ACACIA_PLANKS,Items.ACACIA_PRESSURE_PLATE,Items.ACACIA_SAPLING,Items.ACACIA_SIGN,Items.ACACIA_SLAB,Items.ACACIA_STAIRS,Items.ACACIA_TRAPDOOR,
-                        Items.ANDESITE,Items.ANDESITE_SLAB,Items.ANDESITE_STAIRS,Items.ANDESITE_WALL,
-                        Items.ALLIUM,
-                        Items.AMETHYST_BLOCK,Items.AMETHYST_CLUSTER,Items.AMETHYST_SHARD,
-                        Items.ACTIVATOR_RAIL,
-                        Items.ANVIL,
-                        Items.AZALEA,Items.AZALEA_LEAVES,
-                        Items.AZURE_BLUET
-                )
-        ;
-
-        this.tag(ModTags.Items.LETTER_B)
-                .add(   Items.BAMBOO, Items.BAMBOO_BUTTON, Items.BAMBOO_BLOCK, Items.BAMBOO_DOOR, Items.BAMBOO_FENCE, Items.BAMBOO_FENCE_GATE, Items.BAMBOO_HANGING_SIGN, Items.BAMBOO_MOSAIC, Items.BAMBOO_MOSAIC_SLAB, Items.BAMBOO_MOSAIC_STAIRS, Items.BAMBOO_PLANKS, Items.BAMBOO_PRESSURE_PLATE, Items.BAMBOO_SIGN, Items.BAMBOO_SLAB, Items.BAMBOO_TRAPDOOR,
-                        Items.BARREL,
-                        Items.BASALT,
-                        Items.BEACON,
-                        Items.BEDROCK,
-                        Items.BARRIER,
-                        Items.BEE_NEST,
-                        Items.BEEHIVE,
-                        Items.BEETROOT,
-                        Items.BELL,
-                        Items.BIG_DRIPLEAF,
-                        Items.BIRCH_BUTTON,Items.BIRCH_DOOR,Items.BIRCH_FENCE,Items.BIRCH_FENCE_GATE,Items.BIRCH_HANGING_SIGN,Items.BIRCH_LEAVES,Items.BIRCH_LOG,Items.BIRCH_PLANKS,Items.BIRCH_PRESSURE_PLATE,Items.BIRCH_SAPLING,Items.BIRCH_SIGN,Items.BIRCH_SLAB,Items.BIRCH_STAIRS,Items.BIRCH_TRAPDOOR,Items.BIRCH_WOOD,
-                        Items.BLACKSTONE,Items.BLACKSTONE_SLAB,Items.BLACKSTONE_STAIRS,Items.BLACKSTONE_WALL,
-                        Items.BLAST_FURNACE,
-                        //Items.BONE_BLOCK, USED FOR CRAFTING SO NOT USED FOR LETTER
-                        //Items.BOOKSHELF, USED FOR CRAFTING SO NOT USED FOR LETTER
-                        Items.BRAIN_CORAL,Items.BRAIN_CORAL_BLOCK,Items.BRAIN_CORAL_FAN,
-                        Items.BREWING_STAND,
-                        Items.BRICKS,
-                        Items.BRICK_SLAB,
-                        Items.BRICK_STAIRS,
-                        Items.BRICK_WALL,
-                        Items.BUBBLE_CORAL,Items.BUBBLE_CORAL_BLOCK,Items.BUBBLE_CORAL_FAN,
-                        Items.BUDDING_AMETHYST
-                )
-        ;
-
-        this.tag(ModTags.Items.LETTER_C)
-                .add(   Items.CACTUS,
-                        Items.CAKE,
-                        Items.CALCITE,
-                        Items.CALIBRATED_SCULK_SENSOR,
-                        Items.CAMPFIRE,
-                        Items.CANDLE,
-                        Items.CARTOGRAPHY_TABLE,
-                        Items.CARVED_PUMPKIN,
-                        Items.CAULDRON,
-                        Items.CHAIN,
-                        Items.CHEST,
-                        Items.CHERRY_BUTTON,Items.CHERRY_DOOR,Items.CHERRY_FENCE,Items.CHERRY_FENCE_GATE,Items.CHERRY_HANGING_SIGN,Items.CHERRY_LEAVES,Items.CHERRY_LOG,Items.CHERRY_PLANKS,Items.CHERRY_PRESSURE_PLATE,Items.CHERRY_SAPLING,Items.CHERRY_SIGN,Items.CHERRY_SLAB,Items.CHERRY_STAIRS,Items.CHERRY_TRAPDOOR,Items.CHERRY_WOOD,
-                        Items.CHIPPED_ANVIL,
-                        Items.CHISELED_BOOKSHELF,Items.CHISELED_DEEPSLATE,Items.CHISELED_NETHER_BRICKS, Items.CHISELED_POLISHED_BLACKSTONE,Items.CHISELED_QUARTZ_BLOCK,Items.CHISELED_RED_SANDSTONE,Items.CHISELED_SANDSTONE,Items.CHISELED_STONE_BRICKS,
-                        Items.CHORUS_FLOWER,
-                        Items.CLAY,
-                        Items.COAL_ORE,
-                        Items.COARSE_DIRT,
-                        Items.COBBLED_DEEPSLATE,Items.COBBLED_DEEPSLATE_SLAB,Items.COBBLED_DEEPSLATE_STAIRS,Items.COBBLED_DEEPSLATE_WALL,
-                        Items.COBBLESTONE,Items.COBBLESTONE_SLAB,Items.COBBLESTONE_STAIRS,Items.COBBLESTONE_WALL,
-                        Items.COBWEB,
-                        Items.COMPOSTER,
-                        Items.CONDUIT,
-                        Items.COPPER_ORE,
-                        Items.CORNFLOWER,
-                        Items.CRACKED_DEEPSLATE_BRICKS,Items.CRACKED_DEEPSLATE_TILES,Items.CRACKED_NETHER_BRICKS,Items.CRACKED_POLISHED_BLACKSTONE_BRICKS,Items.CRACKED_STONE_BRICKS,
-                        Items.CRAFTING_TABLE,
-                        Items.CREEPER_HEAD,
-                        Items.CRIMSON_BUTTON,Items.CRIMSON_DOOR,Items.CRIMSON_FENCE,Items.CRIMSON_FENCE_GATE,Items.CRIMSON_FUNGUS,Items.CRIMSON_HANGING_SIGN,Items.CRIMSON_HYPHAE,Items.CRIMSON_NYLIUM,Items.CRIMSON_PLANKS,Items.CRIMSON_PRESSURE_PLATE,Items.CRIMSON_ROOTS,Items.CRIMSON_SIGN,Items.CRIMSON_SLAB,Items.CRIMSON_STAIRS,Items.CRIMSON_STEM,Items.CRIMSON_TRAPDOOR,
-                        Items.CRYING_OBSIDIAN,
-                        Items.CUT_COPPER,Items.CUT_COPPER_SLAB,Items.CUT_COPPER_STAIRS,
-                        Items.CUT_RED_SANDSTONE,Items.CUT_RED_SANDSTONE_SLAB,Items.CUT_SANDSTONE
-                )
-        ;
 
 
 

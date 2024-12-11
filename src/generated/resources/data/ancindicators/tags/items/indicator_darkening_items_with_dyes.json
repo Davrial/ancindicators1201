@@ -1,10 +1,7 @@
 {
   "values": [
+    "#ancindicators:indicator_darkening_items",
     "minecraft:black_dye",
-    "minecraft:gray_dye",
-    "minecraft:ink_sac",
-    "minecraft:coal",
-    "minecraft:charcoal",
-    "ancindicators:vial_of_darkening_solution_black"
+    "minecraft:gray_dye"
   ]
 }

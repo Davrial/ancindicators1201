@@ -333,7 +333,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get(),
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get(),
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get(),
-                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get()
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get(),
+                        ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get(),
+                        ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK.get()
                 )
         ;
 
@@ -437,7 +439,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get(),
                         ModBlocks.TIME_INDICATOR_BLOCK_NOON.get(),
                         ModBlocks.TIME_INDICATOR_BLOCK_DUSK.get(),
-                        ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT.get()
+                        ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT.get(),
+                        ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get(),
+                        ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK.get()
                 )
         ;
 

@@ -1,3 +1,6 @@
 {
-  "parent": "ancindicators:block/time_indicator_dawn"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ancindicators:item/time_indicator_item_dawn"
+  }
 }

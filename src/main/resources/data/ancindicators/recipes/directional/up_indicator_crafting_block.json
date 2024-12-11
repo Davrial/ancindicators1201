@@ -9,5 +9,5 @@
     "1": {      "item": "minecraft:compass"    },
     "2": {      "item": "ancindicators:blank_indicator_block"    }
   },
-  "result": {    "item": "ancindicators:directional_indicator_block_up"  }
+  "result": {    "item": "ancindicators:directional_indicator_block_up",  "count": 4  }
 }

@@ -80,6 +80,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //FILL IN ITEMS HERE
 
+
+        /*
+        //DONE
         //Main Items
         simpleItem(ModItems.BLANK_INDICATOR_ITEM);
         simpleItem(ModItems.DARKENED_BLANK_INDICATOR_ITEM);
@@ -274,6 +277,29 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LIGHT_LEVEL_INDICATOR_ITEM_14);
         simpleItem(ModItems.LIGHT_LEVEL_INDICATOR_ITEM_15);
 
+
+
+        //Directional items
+        simpleItem(ModItems.DIRECTIONAL_INDICATOR_ITEM_UP);
+        simpleItem(ModItems.DIRECTIONAL_INDICATOR_ITEM_DOWN);
+        simpleItem(ModItems.DIRECTIONAL_INDICATOR_ITEM_LEFT);
+        simpleItem(ModItems.DIRECTIONAL_INDICATOR_ITEM_RIGHT);
+        simpleItem(ModItems.DIRECTIONAL_INDICATOR_ITEM_AWAY);
+        simpleItem(ModItems.DIRECTIONAL_INDICATOR_ITEM_TOWARDS);
+        simpleItem(ModItems.DIRECTIONAL_INDICATOR_ITEM_CLOCKWISE);
+        simpleItem(ModItems.DIRECTIONAL_INDICATOR_ITEM_CCW);
+
+        //Time items
+        simpleItem(ModItems.TIME_INDICATOR_ITEM_DAWN);
+        simpleItem(ModItems.TIME_INDICATOR_ITEM_NOON);
+        simpleItem(ModItems.TIME_INDICATOR_ITEM_DUSK);
+        simpleItem(ModItems.TIME_INDICATOR_ITEM_MIDNIGHT);
+
+
+
+         */
+
+
     }
 
 
@@ -281,7 +307,16 @@ public class ModItemModelProvider extends ItemModelProvider {
 
 
 
+
+
+
+
     /*NO CHANGES NEEDED PAST THIS LINE*/
+
+
+
+
+
 
 
 

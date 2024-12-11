@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "ancindicators:item/blank_light_level_indicator_item"
-  }
-}

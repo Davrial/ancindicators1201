@@ -177,6 +177,8 @@
   "block.ancindicators.directional_indicator_block_towards": "Directional Indicator Block: Towards",
   "block.ancindicators.directional_indicator_block_clockwise": "Directional Indicator Block: Clockwise",
   "block.ancindicators.directional_indicator_block_ccw": "Directional Indicator Block: Counter-Clockwise",
+  "block.ancindicators.indicated_direction_decorative_block": "Indicated Direction Decorative Block",
+  "block.ancindicators.opposite_direction_decorative_block": "Opposite Direction Decorative Block",
 
   "block.ancindicators.time_indicator_block_dawn": "Time Indicator Block: Dawn",
   "block.ancindicators.time_indicator_block_noon": "Time Indicator Block: Noon / Day",
@@ -321,6 +323,20 @@
   "item.ancindicators.text_color_indicator_item_material_lapis": "Text Color Indicator Item: Material: Lapis",
   "item.ancindicators.text_color_indicator_item_material_amethyst": "Text Color Indicator Item: Material: Amethyst",
 
+  "item.ancindicators.directional_indicator_item_up": "Directional Indicator Item: Up",
+  "item.ancindicators.directional_indicator_item_down": "Directional Indicator Item: Down",
+  "item.ancindicators.directional_indicator_item_left": "Directional Indicator Item: Left",
+  "item.ancindicators.directional_indicator_item_right": "Directional Indicator Item: Right",
+  "item.ancindicators.directional_indicator_item_away": "Directional Indicator Item: Away",
+  "item.ancindicators.directional_indicator_item_towards": "Directional Indicator Item: Towards",
+  "item.ancindicators.directional_indicator_item_clockwise": "Directional Indicator Item: Clockwise",
+  "item.ancindicators.directional_indicator_item_ccw": "Directional Indicator Item: Counter-Clockwise",
+
+  "item.ancindicators.time_indicator_item_dawn": "Time Indicator Item: Dawn",
+  "item.ancindicators.time_indicator_item_noon": "Time Indicator Item: Noon / Day",
+  "item.ancindicators.time_indicator_item_dusk": "Time Indicator Item: Dusk",
+  "item.ancindicators.time_indicator_item_midnight": "Time Indicator Item: Midnight / Night",
+
 
 
 
@@ -347,5 +363,6 @@
   "creativetab.ancindicators_redstone_items_tab": "ANC Indicators Redstone Items",
   "creativetab.ancindicators_light_level_items_tab": "ANC Indicators Light Level Items",
   "creativetab.ancindicators_decorative_tab": "ANC Indicators Decorative Blocks",
-  "creativetab.ancindicators_paints_tab": "ANC Indicators Paints"
+  "creativetab.ancindicators_paints_tab": "ANC Indicators Paints",
+  "creativetab.ancindicators_all_indicator_items_tab": "ANC Indicators All Indicator Items"
 }

@@ -87,6 +87,8 @@
     "ancindicators:time_indicator_block_dawn",
     "ancindicators:time_indicator_block_noon",
     "ancindicators:time_indicator_block_dusk",
-    "ancindicators:time_indicator_block_midnight"
+    "ancindicators:time_indicator_block_midnight",
+    "ancindicators:indicated_direction_decorative_block",
+    "ancindicators:opposite_direction_decorative_block"
   ]
 }

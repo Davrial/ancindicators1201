@@ -97,6 +97,9 @@ public class ModTags {
         public static final TagKey<Item> ADVANCED_INDICATOR_BLOCK_ITEMS = tag("advanced_indicator_block_items");
         public static final TagKey<Item> INDICATOR_DARKENING_ITEMS = tag("indicator_darkening_items");
         public static final TagKey<Item> INDICATOR_DARKENING_ITEMS_WITH_DYES = tag("indicator_darkening_items_with_dyes");
+        public static final TagKey<Item> DIRECTIONAL_INDICATOR_ITEMS = tag("directional_indicator_items");
+        public static final TagKey<Item> TIME_INDICATOR_ITEMS = tag("time_indicator_items");
+
 
         //Erasable Block Item Tags
         public static final TagKey<Item> ALL_ERASABLE_BLOCK_ITEMS = tag("all_erasable_block_items");
@@ -139,10 +142,22 @@ public class ModTags {
         public static final TagKey<Item> COLORING_TOOLS = tag("coloring_tools");
 
 
-        //Letters
-        public static final TagKey<Item> LETTER_A = tag("letter_a");
-        public static final TagKey<Item> LETTER_B = tag("letter_b");
-        public static final TagKey<Item> LETTER_C = tag("letter_c");
+
+
+
+
+
+
+
+
+        //No changes past this point
+
+
+
+
+
+
+
 
 
 

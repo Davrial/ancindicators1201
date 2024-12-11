@@ -1,0 +1,12 @@
+{
+  "values": [
+    "ancindicators:directional_indicator_item_up",
+    "ancindicators:directional_indicator_item_down",
+    "ancindicators:directional_indicator_item_left",
+    "ancindicators:directional_indicator_item_right",
+    "ancindicators:directional_indicator_item_away",
+    "ancindicators:directional_indicator_item_towards",
+    "ancindicators:directional_indicator_item_clockwise",
+    "ancindicators:directional_indicator_item_ccw"
+  ]
+}

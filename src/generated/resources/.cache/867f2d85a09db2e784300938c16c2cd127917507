@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-09T04:00:17.3224216	Tags for minecraft:block mod id ancindicators
+// 1.20.1	2024-12-11T00:43:12.02833	Tags for minecraft:block mod id ancindicators
 3188e4c6df9b5a77d9fe0f0238043374a01afc56 data/ancindicators/tags/blocks/advanced_indicator_blocks.json
 029da9738c6dc4eec84c4523a697a8c9c5d88ee2 data/ancindicators/tags/blocks/all_erasable_blocks.json
 1c58e63bbec43e52d94fb5b76705180c6ce5b37a data/ancindicators/tags/blocks/all_indicator_blocks.json
@@ -7,8 +7,8 @@ b79bb497e628faf63b7364c70239cbf364de2c6c data/ancindicators/tags/blocks/alphabet
 e68d5c2d9d478310e6488414b989eb23fdf9dcb2 data/ancindicators/tags/blocks/blank_indicator_blocks.json
 87c3b1a6485ac32c673a95effbaeda913b9562cd data/ancindicators/tags/blocks/block_color_indicator_blocks.json
 0ccb7efc174314135035cfb72f31cac6b82934ec data/ancindicators/tags/blocks/color_indicator_blocks.json
-3a83e6c440a839f2840cb4b62d60f89579f84938 data/ancindicators/tags/blocks/directional_indicator_blocks.json
-f1c9876c8b0abde2b76d68516e7539952f9e31c5 data/ancindicators/tags/blocks/erasable_to_blank_blocks.json
+7b0b5262b172ee65b2b14d65362cef4405941fe3 data/ancindicators/tags/blocks/directional_indicator_blocks.json
+b6a9dc67e6bb1dd690aea5bc7148554ab0391a9d data/ancindicators/tags/blocks/erasable_to_blank_blocks.json
 3b304839aa09bb3e2d0c6e0d8e0513f80f8d0e95 data/ancindicators/tags/blocks/erasable_to_darkened_blocks.json
 c589ce93d2b60dde0d31fdcfee7da07b1a4618ad data/ancindicators/tags/blocks/erasable_to_light_level_blocks.json
 590ac2bbdfa651d3ed35b44441eb6d91778ead64 data/ancindicators/tags/blocks/erasable_to_plain_glowstone_blocks.json

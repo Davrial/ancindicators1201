@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "1",
+    " ",
+    "1"
+  ],
+  "key": {
+    "1": {"tag": "ancindicators:directional_indicator_blocks"}
+  },
+  "result": {    "item": "ancindicators:indicated_direction_decorative_block", "count": 2  }
+}

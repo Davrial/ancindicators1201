@@ -81,6 +81,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.DARKENED_INDICATOR_DOOR.get());
                         pOutput.accept(ModBlocks.DARKENED_INDICATOR_TRAPDOOR.get());
                         pOutput.accept(ModBlocks.DARKENED_INDICATOR_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get());
+                        pOutput.accept(ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK.get());
                     })
                     .build()
     );
@@ -255,6 +257,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
                         pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get());
                         pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
+                        pOutput.accept(ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get());
+                        pOutput.accept(ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK.get());
 
                         //Time Blocks
                         pOutput.accept(ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get());
@@ -503,6 +507,8 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
                                 pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get());
                                 pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
+                                pOutput.accept(ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get());
+                                pOutput.accept(ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK.get());
                             })
                             .build()
             );
@@ -522,10 +528,10 @@ public class ModCreativeModTabs {
             );
 
     //ITEM TABS
-    public static final RegistryObject<CreativeModeTab> ANCINDICATORS_ALL_ITEMS_TAB =
-            CREATIVE_MODE_TABS.register("ancindicators_all_items_tab",
+    public static final RegistryObject<CreativeModeTab> ANCINDICATORS_ALL_INDICATOR_ITEMS_TAB =
+            CREATIVE_MODE_TABS.register("ancindicators_all_indicator_items_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLANK_INDICATOR_ITEM.get()))
-                    .title(Component.translatable("creativetab.ancindicators_all_items_tab"))
+                    .title(Component.translatable("creativetab.ancindicators_all_indicator_items_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         //Main Blocks
                         pOutput.accept(ModItems.BLANK_INDICATOR_ITEM.get());
@@ -612,167 +618,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_MAGENTA.get());
                         pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_PINK.get());
 
-                        //Text Color Blocks
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_BLACK.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_DARK_BLUE.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_DARK_GREEN.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_DARK_AQUA.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_DARK_RED.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_DARK_PURPLE.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_GOLD.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_GRAY.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_DARK_GRAY.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_BLUE.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_GREEN.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_AQUA.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_RED.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_LIGHT_PURPLE.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_YELLOW.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_WHITE.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MINECOIN_GOLD.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_QUARTZ.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_IRON.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_NETHERITE.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_REDSTONE.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_COPPER.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_GOLD.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_EMERALD.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_DIAMOND.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_LAPIS.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_AMETHYST.get());
-
-                    })
-                    .build()
-    );
-
-    public static final RegistryObject<CreativeModeTab> ANCINDICATORS_BASE_ITEMS_TAB =
-            CREATIVE_MODE_TABS.register("ancindicators_base_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLANK_INDICATOR_ITEM.get()))
-                    .title(Component.translatable("creativetab.ancindicators_base_items_tab"))
-                    .displayItems((pParameters, pOutput) -> {
-                        //Main Blocks
-                        pOutput.accept(ModItems.BLANK_INDICATOR_ITEM.get());
-                        pOutput.accept(ModItems.DARKENED_BLANK_INDICATOR_ITEM.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_TEMPLATE_ITEM.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_TEMPLATE_ITEM.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_TEMPLATE_ITEM.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_TEMPLATE_ITEM.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_TEMPLATE_ITEM_DARKENED.get());
-                    })
-                    .build()
-    );
-
-    public static final RegistryObject<CreativeModeTab> ANCINDICATORS_ALPHABETIC_ITEMS_TAB =
-            CREATIVE_MODE_TABS.register("ancindicators_alphabetic_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALPHABETIC_INDICATOR_TEMPLATE_ITEM.get()))
-                    .title(Component.translatable("creativetab.ancindicators_alphabetic_items_tab"))
-                    .displayItems((pParameters, pOutput) -> {
-                        //Alphabetic Items
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_TEMPLATE_ITEM.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_A.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_B.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_C.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_D.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_E.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_F.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_G.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_H.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_I.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_J.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_K.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_L.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_M.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_N.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_O.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_P.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_Q.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_R.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_S.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_T.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_U.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_V.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_W.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_X.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_Y.get());
-                        pOutput.accept(ModItems.ALPHABETIC_INDICATOR_ITEM_Z.get());
-                    })
-                    .build()
-    );
-
-    public static final RegistryObject<CreativeModeTab> ANCINDICATORS_NUMERIC_ITEMS_TAB =
-            CREATIVE_MODE_TABS.register("ancindicators_numeric_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.NUMERIC_INDICATOR_TEMPLATE_ITEM.get()))
-                    .title(Component.translatable("creativetab.ancindicators_numeric_items_tab"))
-                    .displayItems((pParameters, pOutput) -> {
-                        //Numeric Items
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_TEMPLATE_ITEM.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_0.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_1.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_2.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_3.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_4.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_5.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_6.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_7.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_8.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_9.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_10.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_11.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_12.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_13.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_14.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_15.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_16.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_32.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_64.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_1000.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_EVEN.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_ODD.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_INFINITY.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_ADD.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_SUBTRACT.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_MULTIPLY.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_DIVIDE.get());
-                        pOutput.accept(ModItems.NUMERIC_INDICATOR_ITEM_EQUALS.get());
-                    })
-                    .build()
-    );
-
-    public static final RegistryObject<CreativeModeTab> ANCINDICATORS_ITEM_COLOR_ITEMS_TAB =
-            CREATIVE_MODE_TABS.register("ancindicators_block_color_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLOCK_COLOR_INDICATOR_TEMPLATE_ITEM.get()))
-                    .title(Component.translatable("creativetab.ancindicators_block_color_items_tab"))
-                    .displayItems((pParameters, pOutput) -> {
-                        //Block Color Items
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_TEMPLATE_ITEM.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_WHITE.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_LIGHT_GRAY.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_GRAY.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_BLACK.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_BROWN.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_RED.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_ORANGE.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_YELLOW.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_LIME.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_GREEN.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_CYAN.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_LIGHT_BLUE.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_BLUE.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_PURPLE.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_MAGENTA.get());
-                        pOutput.accept(ModItems.BLOCK_COLOR_INDICATOR_ITEM_PINK.get());
-                    })
-                    .build()
-    );
-
-    public static final RegistryObject<CreativeModeTab> ANCINDICATORS_TEXT_COLOR_ITEMS_TAB =
-            CREATIVE_MODE_TABS.register("ancindicators_text_color_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TEXT_COLOR_INDICATOR_TEMPLATE_ITEM.get()))
-                    .title(Component.translatable("creativetab.ancindicators_text_color_items_tab"))
-                    .displayItems((pParameters, pOutput) -> {
                         //Text Color Items
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_TEMPLATE_ITEM.get());
-                        pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_TEMPLATE_ITEM_DARKENED.get());
                         pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_BLACK.get());
                         pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_DARK_BLUE.get());
                         pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_DARK_GREEN.get());
@@ -800,9 +646,27 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_DIAMOND.get());
                         pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_LAPIS.get());
                         pOutput.accept(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_AMETHYST.get());
+
+                        //Directional items
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_UP.get());
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_DOWN.get());
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_LEFT.get());
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_RIGHT.get());
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_AWAY.get());
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_TOWARDS.get());
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_CLOCKWISE.get());
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_CCW.get());
+
+                        //Time items
+                        pOutput.accept(ModItems.TIME_INDICATOR_ITEM_DAWN.get());
+                        pOutput.accept(ModItems.TIME_INDICATOR_ITEM_NOON.get());
+                        pOutput.accept(ModItems.TIME_INDICATOR_ITEM_DUSK.get());
+                        pOutput.accept(ModItems.TIME_INDICATOR_ITEM_MIDNIGHT.get());
+
                     })
                     .build()
     );
+
 
 
 
