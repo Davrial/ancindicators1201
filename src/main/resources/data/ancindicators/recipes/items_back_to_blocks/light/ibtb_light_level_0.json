@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {    "item": "ancindicators:light_level_indicator_item_0"},
+    {    "item": "ancindicators:light_level_indicator_item_0"},
+    {    "item": "ancindicators:light_level_indicator_item_0"},
+    {    "item": "ancindicators:light_level_indicator_item_0"},
+    {    "item": "ancindicators:light_level_indicator_item_0"},
+    {    "item": "ancindicators:light_level_indicator_item_0"}
+  ],
+  "result": {    "item": "ancindicators:light_level_indicator_block_0"  }
+}

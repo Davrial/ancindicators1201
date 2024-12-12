@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {    "item": "ancindicators:text_color_indicator_item_minecoin_gold"},
+    {    "item": "ancindicators:text_color_indicator_item_minecoin_gold"},
+    {    "item": "ancindicators:text_color_indicator_item_minecoin_gold"},
+    {    "item": "ancindicators:text_color_indicator_item_minecoin_gold"},
+    {    "item": "ancindicators:text_color_indicator_item_minecoin_gold"},
+    {    "item": "ancindicators:text_color_indicator_item_minecoin_gold"}
+  ],
+  "result": {    "item": "ancindicators:text_color_indicator_block_minecoin_gold"  }
+}

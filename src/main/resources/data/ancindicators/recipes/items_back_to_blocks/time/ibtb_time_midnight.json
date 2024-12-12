@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {    "item": "ancindicators:time_indicator_item_midnight"},
+    {    "item": "ancindicators:time_indicator_item_midnight"},
+    {    "item": "ancindicators:time_indicator_item_midnight"},
+    {    "item": "ancindicators:time_indicator_item_midnight"},
+    {    "item": "ancindicators:time_indicator_item_midnight"},
+    {    "item": "ancindicators:time_indicator_item_midnight"}
+  ],
+  "result": {    "item": "ancindicators:time_indicator_block_midnight"  }
+}

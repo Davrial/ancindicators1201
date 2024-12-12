@@ -1,6 +1,7 @@
 package net.davrial.ancindicators.datagen;
 
 import net.davrial.ancindicators.ANCIndicators;
+import net.davrial.ancindicators.block.ModBlocks;
 import net.davrial.ancindicators.item.ModItems;
 import net.davrial.ancindicators.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -165,8 +166,6 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .addTag(ModTags.Items.ALPHABETIC_INDICATOR_ITEMS)
                 .addTag(ModTags.Items.NUMERIC_INDICATOR_ITEMS)
                 .addTag(ModTags.Items.BLOCK_COLOR_INDICATOR_ITEMS)
-                .addTag(ModTags.Items.DIRECTIONAL_INDICATOR_ITEMS)
-                .addTag(ModTags.Items.TIME_INDICATOR_ITEMS)
                 .add(ModItems.TEXT_COLOR_INDICATOR_TEMPLATE_ITEM.get(),
                         ModItems.DARKENED_BLANK_INDICATOR_ITEM.get()
                         )
@@ -225,17 +224,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.TEXT_COLOR_INDICATOR_ITEM_LIGHT_PURPLE.get(),
                         ModItems.TEXT_COLOR_INDICATOR_ITEM_YELLOW.get(),
                         ModItems.TEXT_COLOR_INDICATOR_ITEM_WHITE.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MINECOIN_GOLD.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_QUARTZ.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_IRON.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_NETHERITE.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_REDSTONE.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_COPPER.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_GOLD.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_EMERALD.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_DIAMOND.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_LAPIS.get(),
-                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_AMETHYST.get()
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MINECOIN_GOLD.get()
                 )
         ;
 
@@ -362,6 +351,42 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .addTag(ModTags.Items.ERASABLE_TO_PLAIN_GLOWSTONE_BLOCK_ITEMS)
         ;
 
+        this.tag(ModTags.Items.INDICATOR_HAMMER_VARIANTS)
+                .add(ModItems.INDICATOR_HAMMER.get(),
+                        ModItems.INDICATOR_HAMMER_DARKENED.get(),
+                        ModItems.INDICATOR_HAMMER_ALPHA.get()
+                )
+        ;
+
+        //High Cost Block Item Tags
+        this.tag(ModTags.Items.HIGH_COST_INDICATOR_BLOCK_ITEMS)
+                .addTag(ModTags.Items.HIGH_COST_TEXT_COLOR_BLOCK_ITEMS)
+                .addTag(ModTags.Items.DIRECTIONAL_INDICATOR_BLOCK_ITEMS)
+                .addTag(ModTags.Items.TIME_INDICATOR_BLOCK_ITEMS)
+        ;
+        
+        //High Cost Item Tags
+        this.tag(ModTags.Items.HIGH_COST_INDICATOR_ITEMS)
+                .addTag(ModTags.Items.HIGH_COST_TEXT_COLOR_ITEMS)
+                .addTag(ModTags.Items.DIRECTIONAL_INDICATOR_ITEMS)
+                .addTag(ModTags.Items.TIME_INDICATOR_ITEMS)
+        ;
+
+        this.tag(ModTags.Items.HIGH_COST_TEXT_COLOR_ITEMS)
+                .add(ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_AMETHYST.get(),
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_COPPER.get(),
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_DIAMOND.get(),
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_EMERALD.get(),
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_GOLD.get(),
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_IRON.get(),
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_LAPIS.get(),
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_NETHERITE.get(),
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_QUARTZ.get(),
+                        ModItems.TEXT_COLOR_INDICATOR_ITEM_MATERIAL_REDSTONE.get()
+                )
+        ;
+        
+
         this.copy(ModTags.Blocks.BLANK_INDICATOR_BLOCKS, ModTags.Items.BLANK_INDICATOR_BLOCK_ITEMS);
         this.copy(ModTags.Blocks.ALPHABETIC_INDICATOR_BLOCKS, ModTags.Items.ALPHABETIC_INDICATOR_BLOCK_ITEMS);
         this.copy(ModTags.Blocks.MISC_NUMERIC_INDICATOR_BLOCKS, ModTags.Items.MISC_NUMERIC_INDICATOR_BLOCK_ITEMS);
@@ -373,6 +398,9 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.copy(ModTags.Blocks.TEXT_COLOR_INDICATOR_BLOCKS_DARK, ModTags.Items.TEXT_COLOR_INDICATOR_BLOCK_ITEMS_DARK);
         this.copy(ModTags.Blocks.REDSTONE_INDICATOR_BLOCKS, ModTags.Items.REDSTONE_INDICATOR_BLOCK_ITEMS);
         this.copy(ModTags.Blocks.LIGHT_LEVEL_INDICATOR_BLOCKS, ModTags.Items.LIGHT_LEVEL_INDICATOR_BLOCK_ITEMS);
+        this.copy(ModTags.Blocks.DIRECTIONAL_INDICATOR_BLOCKS, ModTags.Items.DIRECTIONAL_INDICATOR_BLOCK_ITEMS);
+        this.copy(ModTags.Blocks.TIME_INDICATOR_BLOCKS, ModTags.Items.TIME_INDICATOR_BLOCK_ITEMS);
+        this.copy(ModTags.Blocks.HIGH_COST_TEXT_COLOR_BLOCKS, ModTags.Items.HIGH_COST_TEXT_COLOR_BLOCK_ITEMS);
         this.copy(ModTags.Blocks.ERASABLE_TO_PLAIN_REDSTONE_BLOCKS, ModTags.Items.ERASABLE_TO_PLAIN_REDSTONE_BLOCK_ITEMS);
         this.copy(ModTags.Blocks.ERASABLE_TO_PLAIN_GLOWSTONE_BLOCKS, ModTags.Items.ERASABLE_TO_PLAIN_GLOWSTONE_BLOCK_ITEMS);
 
@@ -417,6 +445,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .addTag(ModTags.Items.LIGHT_LEVEL_INDICATOR_BLOCK_ITEMS);
         this.tag(ModTags.Items.REDSTONE_INDICATOR_BLOCK_ITEMS);
         this.tag(ModTags.Items.LIGHT_LEVEL_INDICATOR_BLOCK_ITEMS);
+        this.tag(ModTags.Items.DIRECTIONAL_INDICATOR_BLOCK_ITEMS);
+        this.tag(ModTags.Items.TIME_INDICATOR_BLOCK_ITEMS);
 
         //Erasable Block Items
         this.tag(ModTags.Items.ALL_ERASABLE_BLOCK_ITEMS)

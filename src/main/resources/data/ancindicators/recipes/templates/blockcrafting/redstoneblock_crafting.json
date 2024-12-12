@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "redstone_indicator_template_block",
+  "ingredients": [
+    [{      "item": "ancindicators:blank_indicator_block"    },
+     {      "item": "ancindicators:numeric_indicator_template_block"    }
+    ],
+    {      "tag": "minecraft:redstone_block"  }
+  ],
+  "result": {    "item": "ancindicators:redstone_indicator_template_block",  "count": 4 }
+}

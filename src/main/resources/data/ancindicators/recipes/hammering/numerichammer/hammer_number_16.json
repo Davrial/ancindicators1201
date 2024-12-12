@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {    "tag": "ancindicators:indicator_hammer_variants"    },    {    "item": "ancindicators:numeric_indicator_block_16"  }
+  ],
+  "result": {    "item": "ancindicators:numeric_indicator_item_16",  "count": 6  }
+}

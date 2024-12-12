@@ -7,5 +7,5 @@
     ],
     {      "item": "minecraft:quartz"}
   ],
-  "result": {    "item": "ancindicators:text_color_indicator_block_material_quartz"  }
+  "result": {    "item": "ancindicators:text_color_indicator_block_material_quartz",  "count": 2    }
 }

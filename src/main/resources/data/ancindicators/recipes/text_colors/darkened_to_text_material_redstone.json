@@ -7,5 +7,5 @@
     ],
     {      "item": "minecraft:redstone"}
   ],
-  "result": {    "item": "ancindicators:text_color_indicator_block_material_redstone"  }
+  "result": {    "item": "ancindicators:text_color_indicator_block_material_redstone",  "count": 2    }
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "darkened_blank_indicator_block",
+  "ingredients": [
+    {    "item": "ancindicators:darkened_blank_indicator_item"},
+    {    "item": "ancindicators:darkened_blank_indicator_item"},
+    {    "item": "ancindicators:darkened_blank_indicator_item"},
+    {    "item": "ancindicators:darkened_blank_indicator_item"},
+    {    "item": "ancindicators:darkened_blank_indicator_item"},
+    {    "item": "ancindicators:darkened_blank_indicator_item"}
+  ],
+  "result": {    "item": "ancindicators:darkened_blank_indicator_block"  }
+}

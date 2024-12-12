@@ -96,6 +96,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .addTag(ModTags.Blocks.BLOCK_COLOR_INDICATOR_BLOCKS)
                 .addTag(ModTags.Blocks.TEXT_COLOR_INDICATOR_BLOCKS)
                 .addTag(ModTags.Blocks.DIRECTIONAL_INDICATOR_BLOCKS)
+                .addTag(ModTags.Blocks.TIME_INDICATOR_BLOCKS)
         ;
 
         this.tag(ModTags.Blocks.ADVANCED_INDICATOR_BLOCKS)
@@ -424,24 +425,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_PURPLE.get(),
                         ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_MAGENTA.get(),
                         ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_PINK.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK.get(),
-                        ModBlocks.DARKENED_BLANK_INDICATOR_BLOCK.get(),
-                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP.get(),
-                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_DOWN.get(),
-                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_LEFT.get(),
-                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_RIGHT.get(),
-                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get(),
-                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get(),
-                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get(),
-                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get(),
-                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_BLANK.get(),
-                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK.get(),
-                        ModBlocks.TIME_INDICATOR_BLOCK_DAWN.get(),
-                        ModBlocks.TIME_INDICATOR_BLOCK_NOON.get(),
-                        ModBlocks.TIME_INDICATOR_BLOCK_DUSK.get(),
-                        ModBlocks.TIME_INDICATOR_BLOCK_MIDNIGHT.get(),
-                        ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get(),
-                        ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK.get()
+                        ModBlocks.TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK.get()
                 )
         ;
 
@@ -462,19 +446,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_LIGHT_PURPLE.get(),
                         ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_YELLOW.get(),
                         ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_WHITE.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MINECOIN_GOLD.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_QUARTZ.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_IRON.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_NETHERITE.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_REDSTONE.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_COPPER.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_GOLD.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_EMERALD.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_DIAMOND.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_LAPIS.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_AMETHYST.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK_DARKENED.get(),
-                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED.get()
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MINECOIN_GOLD.get()
                 )
         ;
 
@@ -533,6 +505,26 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         ;
 
+        //High Cost Block Tags
+        this.tag(ModTags.Blocks.HIGH_COST_INDICATOR_BLOCKS)
+                .addTag(ModTags.Blocks.HIGH_COST_TEXT_COLOR_BLOCKS)
+                .addTag(ModTags.Blocks.DIRECTIONAL_INDICATOR_BLOCKS)
+                .addTag(ModTags.Blocks.TIME_INDICATOR_BLOCKS)
+
+        ;
+        this.tag(ModTags.Blocks.HIGH_COST_TEXT_COLOR_BLOCKS)
+                .add(ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_AMETHYST.get(),
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_COPPER.get(),
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_DIAMOND.get(),
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_EMERALD.get(),
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_GOLD.get(),
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_IRON.get(),
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_LAPIS.get(),
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_NETHERITE.get(),
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_QUARTZ.get(),
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MATERIAL_REDSTONE.get()
+                )
+        ;
 
 
         //Paintable Tags

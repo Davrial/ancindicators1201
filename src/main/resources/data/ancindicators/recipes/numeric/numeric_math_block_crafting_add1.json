@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "111",
+    " 1 "
+  ],
+  "key": {
+    "1": {      "item": "ancindicators:numeric_indicator_template_block"    }
+  },
+  "result": {    "item": "ancindicators:numeric_indicator_block_add", "count": 5  }
+}

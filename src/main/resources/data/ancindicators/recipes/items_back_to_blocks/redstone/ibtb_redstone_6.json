@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {    "item": "ancindicators:redstone_indicator_item_6"},
+    {    "item": "ancindicators:redstone_indicator_item_6"},
+    {    "item": "ancindicators:redstone_indicator_item_6"},
+    {    "item": "ancindicators:redstone_indicator_item_6"},
+    {    "item": "ancindicators:redstone_indicator_item_6"},
+    {    "item": "ancindicators:redstone_indicator_item_6"}
+  ],
+  "result": {    "item": "ancindicators:redstone_indicator_block_6"  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {    "item": "ancindicators:block_color_indicator_item_black"},
+    {    "item": "ancindicators:block_color_indicator_item_black"},
+    {    "item": "ancindicators:block_color_indicator_item_black"},
+    {    "item": "ancindicators:block_color_indicator_item_black"},
+    {    "item": "ancindicators:block_color_indicator_item_black"},
+    {    "item": "ancindicators:block_color_indicator_item_black"}
+  ],
+  "result": {    "item": "ancindicators:block_color_indicator_block_black"  }
+}

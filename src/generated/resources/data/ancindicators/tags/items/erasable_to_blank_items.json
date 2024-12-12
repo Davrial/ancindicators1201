@@ -3,8 +3,6 @@
     "#ancindicators:alphabetic_indicator_items",
     "#ancindicators:numeric_indicator_items",
     "#ancindicators:block_color_indicator_items",
-    "#ancindicators:directional_indicator_items",
-    "#ancindicators:time_indicator_items",
     "ancindicators:text_color_indicator_template_item",
     "ancindicators:darkened_blank_indicator_item"
   ]

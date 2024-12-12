@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {    "tag": "ancindicators:indicator_hammer_variants"    },    {    "item": "ancindicators:time_indicator_block_dusk"  }
+  ],
+  "result": {    "item": "ancindicators:time_indicator_item_dusk",  "count": 6  }
+}

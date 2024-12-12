@@ -7,5 +7,5 @@
     ],
     {      "item": "minecraft:lapis_lazuli"}
   ],
-  "result": {    "item": "ancindicators:text_color_indicator_block_material_lapis"  }
+  "result": {    "item": "ancindicators:text_color_indicator_block_material_lapis",  "count": 2    }
 }

@@ -83,6 +83,13 @@ public class ModItems {
     public static final RegistryObject<Item> PALETTE_TEXT = ITEMS.register("palette_text",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> INDICATOR_HAMMER = ITEMS.register("indicator_hammer",
+            () -> new IndicatorHammerItem());
+    public static final RegistryObject<Item> INDICATOR_HAMMER_DARKENED = ITEMS.register("indicator_hammer_darkened",
+            () -> new IndicatorHammerItem());
+    public static final RegistryObject<Item> INDICATOR_HAMMER_ALPHA = ITEMS.register("indicator_hammer_alpha",
+            () -> new IndicatorHammerItem());
+
     public static final RegistryObject<Item> GETTER_STICK = ITEMS.register("getter_stick",
             () -> new GetterStickItem());
 

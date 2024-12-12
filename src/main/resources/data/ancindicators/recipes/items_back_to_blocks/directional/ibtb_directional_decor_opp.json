@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {    "item": "ancindicators:directional_indicator_item_away"},
+    {    "item": "ancindicators:directional_indicator_item_away"},
+    {    "item": "ancindicators:directional_indicator_item_away"},
+    {    "item": "ancindicators:directional_indicator_item_away"},
+    {    "item": "ancindicators:directional_indicator_item_away"},
+    {    "item": "ancindicators:directional_indicator_item_away"}
+  ],
+  "result": {    "item": "ancindicators:opposite_direction_decorative_block"  }
+}

@@ -34,6 +34,8 @@ public class ModTags {
         public static final TagKey<Block> ADVANCED_INDICATOR_BLOCKS = tag("advanced_indicator_blocks");
         public static final TagKey<Block> DIRECTIONAL_INDICATOR_BLOCKS = tag("directional_indicator_blocks");
         public static final TagKey<Block> TIME_INDICATOR_BLOCKS = tag("time_indicator_blocks");
+        public static final TagKey<Block> HIGH_COST_INDICATOR_BLOCKS = tag("high_cost_indicator_blocks");
+        public static final TagKey<Block> HIGH_COST_TEXT_COLOR_BLOCKS = tag("high_cost_text_color_blocks");
 
 
         //Erasable Block Tags
@@ -99,6 +101,12 @@ public class ModTags {
         public static final TagKey<Item> INDICATOR_DARKENING_ITEMS_WITH_DYES = tag("indicator_darkening_items_with_dyes");
         public static final TagKey<Item> DIRECTIONAL_INDICATOR_ITEMS = tag("directional_indicator_items");
         public static final TagKey<Item> TIME_INDICATOR_ITEMS = tag("time_indicator_items");
+        public static final TagKey<Item> DIRECTIONAL_INDICATOR_BLOCK_ITEMS = tag("directional_indicator_block_items");
+        public static final TagKey<Item> TIME_INDICATOR_BLOCK_ITEMS = tag("time_indicator_block_items");
+        public static final TagKey<Item> HIGH_COST_INDICATOR_BLOCK_ITEMS = tag("high_cost_indicator_block_items");
+        public static final TagKey<Item> HIGH_COST_TEXT_COLOR_BLOCK_ITEMS = tag("high_cost_text_color_block_items");
+        public static final TagKey<Item> HIGH_COST_INDICATOR_ITEMS = tag("high_cost_indicator_items");
+        public static final TagKey<Item> HIGH_COST_TEXT_COLOR_ITEMS = tag("high_cost_text_color_items");
 
 
         //Erasable Block Item Tags
@@ -140,6 +148,7 @@ public class ModTags {
         public static final TagKey<Item> WEAK_PAINTS = tag("strong_paints");
         public static final TagKey<Item> SPECIAL_PAINTS = tag("special_paints");
         public static final TagKey<Item> COLORING_TOOLS = tag("coloring_tools");
+        public static final TagKey<Item> INDICATOR_HAMMER_VARIANTS = tag("indicator_hammer_variants");
 
 
 

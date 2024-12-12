@@ -21,6 +21,9 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.ancindicators_misc_items_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         //Misc Items
+                        pOutput.accept(ModItems.INDICATOR_HAMMER.get());
+                        pOutput.accept(ModItems.INDICATOR_HAMMER_DARKENED.get());
+                        pOutput.accept(ModItems.INDICATOR_HAMMER_ALPHA.get());
                         pOutput.accept(ModItems.ERASER.get());
                         pOutput.accept(ModItems.MAGIC_ERASER.get());
                         pOutput.accept(ModItems.PALETTE.get());

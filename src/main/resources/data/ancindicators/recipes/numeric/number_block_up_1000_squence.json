@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc,",
   "pattern": [
-    "ABB",
-    "   ",
-    "   "
+    "ABB"
   ],
   "key": {
     "A": {      "item": "ancindicators:numeric_indicator_block_10"    },
