@@ -430,6 +430,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_CCW = ITEMS.register("directional_indicator_item_ccw",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_IN = ITEMS.register("directional_indicator_item_in",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIRECTIONAL_INDICATOR_ITEM_OUT = ITEMS.register("directional_indicator_item_out",
+            () -> new Item(new Item.Properties()));
 
     //Time indicator items
     public static final RegistryObject<Item> TIME_INDICATOR_ITEM_DAWN = ITEMS.register("time_indicator_item_dawn",

@@ -301,7 +301,9 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.DIRECTIONAL_INDICATOR_ITEM_AWAY.get(),
                         ModItems.DIRECTIONAL_INDICATOR_ITEM_TOWARDS.get(),
                         ModItems.DIRECTIONAL_INDICATOR_ITEM_CLOCKWISE.get(),
-                        ModItems.DIRECTIONAL_INDICATOR_ITEM_CCW.get()
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_CCW.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_IN.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_OUT.get()
                 )
         ;
 
@@ -310,6 +312,22 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.TIME_INDICATOR_ITEM_NOON.get(),
                         ModItems.TIME_INDICATOR_ITEM_DUSK.get(),
                         ModItems.TIME_INDICATOR_ITEM_MIDNIGHT.get()
+                )
+        ;
+
+        //Recipe Cycling Items
+        this.tag(ModTags.Items.RECIPE_CYCLING_FORWARD_ITEMS)
+                .add(ModItems.DIRECTIONAL_INDICATOR_ITEM_UP.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_RIGHT.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_CLOCKWISE.get(),
+                        ModItems.NUMERIC_INDICATOR_ITEM_ADD.get()
+                )
+        ;
+        this.tag(ModTags.Items.RECIPE_CYCLING_BACK_ITEMS)
+                .add(ModItems.DIRECTIONAL_INDICATOR_ITEM_DOWN.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_LEFT.get(),
+                        ModItems.DIRECTIONAL_INDICATOR_ITEM_CCW.get(),
+                        ModItems.NUMERIC_INDICATOR_ITEM_SUBTRACT.get()
                 )
         ;
 
@@ -403,6 +421,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.copy(ModTags.Blocks.HIGH_COST_TEXT_COLOR_BLOCKS, ModTags.Items.HIGH_COST_TEXT_COLOR_BLOCK_ITEMS);
         this.copy(ModTags.Blocks.ERASABLE_TO_PLAIN_REDSTONE_BLOCKS, ModTags.Items.ERASABLE_TO_PLAIN_REDSTONE_BLOCK_ITEMS);
         this.copy(ModTags.Blocks.ERASABLE_TO_PLAIN_GLOWSTONE_BLOCKS, ModTags.Items.ERASABLE_TO_PLAIN_GLOWSTONE_BLOCK_ITEMS);
+        this.copy(ModTags.Blocks.RECIPE_CYCLING_FORWARD_BLOCKS, ModTags.Items.RECIPE_CYCLING_FORWARD_BLOCK_ITEMS);
+        this.copy(ModTags.Blocks.RECIPE_CYCLING_BACK_BLOCKS, ModTags.Items.RECIPE_CYCLING_BACK_BLOCK_ITEMS);
 
         //Erasable Blocks to Block Items
         this.copy(ModTags.Blocks.ERASABLE_TO_BLANK_BLOCKS, ModTags.Items.ERASABLE_TO_BLANK_BLOCK_ITEMS);

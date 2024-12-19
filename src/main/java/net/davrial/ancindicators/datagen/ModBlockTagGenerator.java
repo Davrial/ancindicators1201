@@ -333,6 +333,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_RIGHT.get(),
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get(),
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_IN.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_OUT.get(),
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_AWAY.get(),
                         ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get(),
                         ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get(),
@@ -526,6 +528,22 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 )
         ;
 
+        //Recipe Cycling Tags
+        this.tag(ModTags.Blocks.RECIPE_CYCLING_FORWARD_BLOCKS)
+                .add(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_UP.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_RIGHT.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get(),
+                        ModBlocks.NUMERIC_INDICATOR_BLOCK_ADD.get()
+                )
+        ;
+
+        this.tag(ModTags.Blocks.RECIPE_CYCLING_BACK_BLOCKS)
+                .add(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_DOWN.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_LEFT.get(),
+                        ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get(),
+                        ModBlocks.NUMERIC_INDICATOR_BLOCK_SUBTRACT.get()
+                )
+        ;
 
         //Paintable Tags
         this.tag(ModTags.Blocks.ALL_PAINTABLE_BLOCKS)

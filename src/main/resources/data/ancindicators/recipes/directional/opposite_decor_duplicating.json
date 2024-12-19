@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {    "item": "ancindicators:blank_indicator_block"    },
-    {    "item": "ancindicators:block_color_indicator_template_block"  }
+    {    "item": "ancindicators:opposite_direction_decorative_block"  }
   ],
   "result": {    "item": "ancindicators:opposite_direction_decorative_block",  "count": 2  }
 }

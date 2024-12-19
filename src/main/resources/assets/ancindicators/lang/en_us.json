@@ -177,6 +177,8 @@
   "block.ancindicators.directional_indicator_block_towards": "Directional Indicator Block: Towards",
   "block.ancindicators.directional_indicator_block_clockwise": "Directional Indicator Block: Clockwise",
   "block.ancindicators.directional_indicator_block_ccw": "Directional Indicator Block: Counter-Clockwise",
+  "block.ancindicators.directional_indicator_block_in": "Directional Indicator Block: Inward",
+  "block.ancindicators.directional_indicator_block_out": "Directional Indicator Block: Outward",
   "block.ancindicators.indicated_direction_decorative_block": "Indicated Direction Decorative Block",
   "block.ancindicators.opposite_direction_decorative_block": "Opposite Direction Decorative Block",
 

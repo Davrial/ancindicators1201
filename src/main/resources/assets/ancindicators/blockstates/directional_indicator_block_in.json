@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ancindicators:block/directional_indicator_block_in"
+    }
+  }
+}

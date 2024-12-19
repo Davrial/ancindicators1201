@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "pattern": [
+    " 1 ",
+    "2 3",
+    " 4 "
+  ],
+  "key": {
+    "1": {      "item": "ancindicators:directional_indicator_block_right"    },
+    "2": {      "item": "ancindicators:directional_indicator_block_up"    },
+    "3": {      "item": "ancindicators:directional_indicator_block_down"    },
+    "4": {      "item": "ancindicators:directional_indicator_block_left"    }
+  },
+  "result": {    "item": "ancindicators:directional_indicator_block_clockwise",  "count": 4  }
+}

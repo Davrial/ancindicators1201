@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-11T19:39:07.5876568	Tags for minecraft:block mod id ancindicators
+// 1.20.1	2024-12-18T17:27:47.7154742	Tags for minecraft:block mod id ancindicators
 3188e4c6df9b5a77d9fe0f0238043374a01afc56 data/ancindicators/tags/blocks/advanced_indicator_blocks.json
 029da9738c6dc4eec84c4523a697a8c9c5d88ee2 data/ancindicators/tags/blocks/all_erasable_blocks.json
 1c58e63bbec43e52d94fb5b76705180c6ce5b37a data/ancindicators/tags/blocks/all_indicator_blocks.json
@@ -7,7 +7,7 @@ b79bb497e628faf63b7364c70239cbf364de2c6c data/ancindicators/tags/blocks/alphabet
 e68d5c2d9d478310e6488414b989eb23fdf9dcb2 data/ancindicators/tags/blocks/blank_indicator_blocks.json
 87c3b1a6485ac32c673a95effbaeda913b9562cd data/ancindicators/tags/blocks/block_color_indicator_blocks.json
 0ccb7efc174314135035cfb72f31cac6b82934ec data/ancindicators/tags/blocks/color_indicator_blocks.json
-7b0b5262b172ee65b2b14d65362cef4405941fe3 data/ancindicators/tags/blocks/directional_indicator_blocks.json
+522d8bfa7afbfd967b54cbb8fff43721d810dc54 data/ancindicators/tags/blocks/directional_indicator_blocks.json
 e6bb0c05b21ae4e33f06b77d2c4edaea8ccfc5fb data/ancindicators/tags/blocks/erasable_to_blank_blocks.json
 650d66a5f35370de134d41673e078c7fdd40f7b9 data/ancindicators/tags/blocks/erasable_to_darkened_blocks.json
 c589ce93d2b60dde0d31fdcfee7da07b1a4618ad data/ancindicators/tags/blocks/erasable_to_light_level_blocks.json
@@ -33,6 +33,8 @@ fdaca0dd474d3b28d466066989bdf9247e078393 data/ancindicators/tags/blocks/paintabl
 8cb1eb557a4e4c78cf3b59b8c46253ebbcfa6b20 data/ancindicators/tags/blocks/paintables_terracotta.json
 2d7068e08e99362203966cd5fd23e7a2912a8601 data/ancindicators/tags/blocks/paintables_wool.json
 a95d3a4a2be475c3778e0cf8aaa6dc764274dd5a data/ancindicators/tags/blocks/paintable_vanilla_blocks.json
+fd6c08d24935d7f8c7c02a6ca2a1acf335e10f4a data/ancindicators/tags/blocks/recipe_cycling_back_blocks.json
+4f97e1ae425bce736d08bcb060f34c7518f2759a data/ancindicators/tags/blocks/recipe_cycling_forward_blocks.json
 ba08dba6371b4b7e7458b53005694efbc308e011 data/ancindicators/tags/blocks/redstone_indicator_blocks.json
 a4982317c4f807837768b3179b7676dc1fc0c161 data/ancindicators/tags/blocks/text_color_indicator_blocks.json
 0496671233e362b57703d446ba6e6bc9518b3692 data/ancindicators/tags/blocks/text_color_indicator_blocks_dark.json

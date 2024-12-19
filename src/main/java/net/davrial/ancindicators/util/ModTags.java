@@ -36,6 +36,8 @@ public class ModTags {
         public static final TagKey<Block> TIME_INDICATOR_BLOCKS = tag("time_indicator_blocks");
         public static final TagKey<Block> HIGH_COST_INDICATOR_BLOCKS = tag("high_cost_indicator_blocks");
         public static final TagKey<Block> HIGH_COST_TEXT_COLOR_BLOCKS = tag("high_cost_text_color_blocks");
+        public static final TagKey<Block> RECIPE_CYCLING_FORWARD_BLOCKS = tag("recipe_cycling_forward_blocks");
+        public static final TagKey<Block> RECIPE_CYCLING_BACK_BLOCKS = tag("recipe_cycling_back_blocks");
 
 
         //Erasable Block Tags
@@ -130,6 +132,15 @@ public class ModTags {
         //Block Item + Item Supertags
         public static final TagKey<Item> ALL_INDICATORS = tag("all_indicators");
         public static final TagKey<Item> ALL_ERASABLES = tag("all_erasables");
+
+        //Recipe Cycling Block Items
+        public static final TagKey<Item> RECIPE_CYCLING_FORWARD_BLOCK_ITEMS = tag("recipe_cycling_forward_block_items");
+        public static final TagKey<Item> RECIPE_CYCLING_BACK_BLOCK_ITEMS = tag("recipe_cycling_back_block_items");
+
+
+        //Recipe Cycling Items
+        public static final TagKey<Item> RECIPE_CYCLING_FORWARD_ITEMS = tag("recipe_cycling_forward_items");
+        public static final TagKey<Item> RECIPE_CYCLING_BACK_ITEMS = tag("recipe_cycling_back_items");
 
 
 

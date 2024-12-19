@@ -1,0 +1,8 @@
+{
+  "values": [
+    "ancindicators:directional_indicator_block_down",
+    "ancindicators:directional_indicator_block_left",
+    "ancindicators:directional_indicator_block_ccw",
+    "ancindicators:numeric_indicator_block_subtract"
+  ]
+}

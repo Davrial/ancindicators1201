@@ -396,6 +396,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
     public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_CCW  = registerBlock("directional_indicator_block_ccw",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+    public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_IN  = registerBlock("directional_indicator_block_in",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
+    public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_OUT  = registerBlock("directional_indicator_block_out",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
     //public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_DIAGONAL_UL  = registerBlock("directional_indicator_block_diagonal_ul",
     //        () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_MUD).sound(SoundType.BONE_BLOCK).mapColor(MapColor.QUARTZ)));
     //public static final RegistryObject<Block> DIRECTIONAL_INDICATOR_BLOCK_DIAGONAL_UR  = registerBlock("directional_indicator_block_diagonal_ur",

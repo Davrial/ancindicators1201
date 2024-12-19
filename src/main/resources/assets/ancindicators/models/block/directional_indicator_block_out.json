@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ancindicators:block/directional_indicator_out",
+    "particle": "ancindicators:block/directional_indicator_out"
+  },
+  "render_type": "solid"
+}

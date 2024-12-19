@@ -260,6 +260,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
                         pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get());
                         pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_IN.get());
+                        pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_OUT.get());
                         pOutput.accept(ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get());
                         pOutput.accept(ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK.get());
 
@@ -510,6 +512,8 @@ public class ModCreativeModTabs {
                                 pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_TOWARDS.get());
                                 pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CLOCKWISE.get());
                                 pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_CCW.get());
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_IN.get());
+                                pOutput.accept(ModBlocks.DIRECTIONAL_INDICATOR_BLOCK_OUT.get());
                                 pOutput.accept(ModBlocks.INDICATED_DIRECTION_DECORATIVE_BLOCK.get());
                                 pOutput.accept(ModBlocks.OPPOSITE_DIRECTION_DECORATIVE_BLOCK.get());
                             })
@@ -659,6 +663,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_TOWARDS.get());
                         pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_CLOCKWISE.get());
                         pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_CCW.get());
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_IN.get());
+                        pOutput.accept(ModItems.DIRECTIONAL_INDICATOR_ITEM_OUT.get());
 
                         //Time items
                         pOutput.accept(ModItems.TIME_INDICATOR_ITEM_DAWN.get());
