@@ -3,7 +3,8 @@
   "category": "misc",
   "ingredients": [
     {      "item": "minecraft:sponge"    },
-    {      "item": "minecraft:white_wool"    }
+    {      "item": "minecraft:white_wool"    },
+    {      "item": "ancindicators:blank_indicator_block"            }
   ],
-  "result": {    "item": "ancindicators:eraser", "count":  2}
+  "result": {    "item": "ancindicators:eraser", "count":  4}
 }

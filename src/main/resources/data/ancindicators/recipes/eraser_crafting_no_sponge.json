@@ -4,7 +4,8 @@
   "ingredients": [
     {      "item": "minecraft:water_bucket"    },
     {      "item": "minecraft:white_wool"      },
-    {      "item": "minecraft:sand"            }
+    {      "item": "minecraft:sand"            },
+    {      "item": "ancindicators:blank_indicator_block"            }
   ],
-  "result": {    "item": "ancindicators:eraser", "count":  2}
+  "result": {    "item": "ancindicators:eraser", "count":  4}
 }

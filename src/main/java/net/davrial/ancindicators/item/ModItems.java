@@ -81,7 +81,7 @@ public class ModItems {
     public static final RegistryObject<Item> PALETTE_BLOCKS = ITEMS.register("palette_blocks",
             () -> new Palette1Item());
     public static final RegistryObject<Item> PALETTE_TEXT = ITEMS.register("palette_text",
-            () -> new Item(new Item.Properties()));
+            () -> new PaletteTextItem());
 
     public static final RegistryObject<Item> INDICATOR_HAMMER = ITEMS.register("indicator_hammer",
             () -> new IndicatorHammerItem());

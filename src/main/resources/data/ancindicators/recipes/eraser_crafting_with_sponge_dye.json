@@ -5,7 +5,8 @@
     {      "item": "minecraft:sponge"    },
     [   {      "item": "minecraft:bone_meal"    },
         {      "item": "minecraft:white_dye"    }
-    ]
+    ],
+    {      "item": "ancindicators:blank_indicator_block"            }
   ],
-  "result": {    "item": "ancindicators:eraser"}
+  "result": {    "item": "ancindicators:eraser", "count": 2}
 }
