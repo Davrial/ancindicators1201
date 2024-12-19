@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {      "item": "ancindicators:numeric_indicator_block_64"    },
+    [{      "item": "ancindicators:directional_indicator_item_up"  },
+      {      "item": "ancindicators:directional_indicator_item_right"  },
+      {      "item": "ancindicators:directional_indicator_item_clockwise"  }
+    ]
+  ],
+  "result": {    "item": "ancindicators:numeric_indicator_block_1000"}
+}
