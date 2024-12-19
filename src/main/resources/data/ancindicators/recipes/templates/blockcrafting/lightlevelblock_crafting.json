@@ -4,9 +4,11 @@
   "group": "light_level_indicator_template_block",
   "ingredients": [
     [{      "item": "ancindicators:blank_indicator_block"    },
-     {      "item": "ancindicators:numeric_indicator_template_block"    }
+    {      "item": "ancindicators:blank_indicator_item"    },
+     {      "item": "ancindicators:numeric_indicator_template_block"    },
+     {      "item": "ancindicators:numeric_indicator_template_item"    }
     ],
     {      "item": "minecraft:glowstone"  }
   ],
-  "result": {    "item": "ancindicators:light_level_indicator_template_block",  "count": 4 }
+  "result": {    "item": "ancindicators:light_level_indicator_template_block" }
 }

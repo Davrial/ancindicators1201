@@ -13,5 +13,5 @@
     "3": {      "item": "ancindicators:directional_indicator_block_up"    },
     "4": {      "item": "ancindicators:directional_indicator_block_right"    }
   },
-  "result": {    "item": "ancindicators:directional_indicator_block_clockwise",  "count": 4  }
+  "result": {    "item": "ancindicators:directional_indicator_block_ccw",  "count": 4  }
 }

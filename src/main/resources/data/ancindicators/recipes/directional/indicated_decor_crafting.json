@@ -7,7 +7,7 @@
     "1"
   ],
   "key": {
-    "1": {"tag": "ancindicators:directional_indicator_blocks"}
+    "1": {"tag": "ancindicators:directional_indicator_block_items"}
   },
   "result": {    "item": "ancindicators:indicated_direction_decorative_block", "count": 2  }
 }

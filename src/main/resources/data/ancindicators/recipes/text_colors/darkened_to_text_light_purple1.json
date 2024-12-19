@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [{      "item": "ancindicators:text_color_indicator_template_block_darkened"    },
+      {      "item": "ancindicators:darkened_blank_indicator_block"    }
+    ],
+    {"item": "minecraft:purple_dye"},
+    {"item": "minecraft:white_dye"}
+  ],
+  "result": {    "item": "ancindicators:text_color_indicator_block_light_purple"  }
+}

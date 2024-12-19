@@ -5,8 +5,8 @@
     [{      "item": "ancindicators:text_color_indicator_template_block_darkened"    },
       {      "item": "ancindicators:darkened_blank_indicator_block"    }
     ],
-    [      {"item": "minecraft:purple_dye"}, {"item": "minecraft:magenta_dye"}],
-    [      {"item": "minecraft:white_dye"}, {"item": "minecraft:pink_dye"}, {"item": "minecraft:bone_meal"}]
+    [      {"item": "minecraft:pink_dye"}, {"item": "minecraft:magenta_dye"}],
+    {"item": "minecraft:blue_dye"}
   ],
   "result": {    "item": "ancindicators:text_color_indicator_block_light_purple"  }
 }

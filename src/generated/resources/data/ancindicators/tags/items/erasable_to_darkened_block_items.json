@@ -16,6 +16,7 @@
     "ancindicators:text_color_indicator_block_light_purple",
     "ancindicators:text_color_indicator_block_yellow",
     "ancindicators:text_color_indicator_block_white",
-    "ancindicators:text_color_indicator_block_minecoin_gold"
+    "ancindicators:text_color_indicator_block_minecoin_gold",
+    "ancindicators:redstone_indicator_block_lever_off_darkened"
   ]
 }

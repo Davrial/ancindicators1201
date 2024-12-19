@@ -65,7 +65,7 @@ public class IndicatorHammerItem extends PickaxeItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("\u00A77 A tool used to break ANC Indicator blocks into 2D items when crafted"));
-		list.add(Component.literal("\u00A77 Also functionas as a pickaxe"));
+		list.add(Component.literal("§8A tool used to break ANC Indicator blocks into 2D items when crafted"));
+		list.add(Component.literal("§8Also functions as an iron pickaxe"));
 	}
 }

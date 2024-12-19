@@ -72,6 +72,8 @@
     "ancindicators:block_color_indicator_block_purple",
     "ancindicators:block_color_indicator_block_magenta",
     "ancindicators:block_color_indicator_block_pink",
-    "ancindicators:text_color_indicator_template_block"
+    "ancindicators:text_color_indicator_template_block",
+    "ancindicators:redstone_indicator_block_lever_on_blank",
+    "ancindicators:redstone_indicator_block_lever_off_blank"
   ]
 }

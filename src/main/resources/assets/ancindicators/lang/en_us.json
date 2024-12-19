@@ -205,6 +205,11 @@
   "item.ancindicators.palette_text": "Text Colors Palette",
   "item.ancindicators.getter_stick": "Block Color Information Getter Debug Stick",
 
+  "item.ancindicators.indicator_hammer": "Indicator Hammer",
+  "item.ancindicators.indicator_hammer_darkened": "Darkened Indicator Hammer",
+  "item.ancindicators.indicator_hammer_alpha": "Alphabetic Indicator Hammer",
+
+
 
   "item.ancindicators.bottle_of_paint_base": "Bottle of Paint Base",
   "item.ancindicators.vessel_of_infinite_light": "Vessel of Infinite Light",

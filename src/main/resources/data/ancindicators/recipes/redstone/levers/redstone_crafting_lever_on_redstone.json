@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [{      "item": "ancindicators:redstone_indicator_template_block"    },
+      {      "item": "ancindicators:blank_redstone_indicator_block"    }
+    ],
+    {      "item": "minecraft:lever"  }
+  ],
+  "result": {    "item": "ancindicators:redstone_indicator_block_lever_on_redstone"}
+}

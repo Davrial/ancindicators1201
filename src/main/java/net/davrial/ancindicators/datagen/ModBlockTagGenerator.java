@@ -427,7 +427,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_PURPLE.get(),
                         ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_MAGENTA.get(),
                         ModBlocks.BLOCK_COLOR_INDICATOR_BLOCK_PINK.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK.get()
+                        ModBlocks.TEXT_COLOR_INDICATOR_TEMPLATE_BLOCK.get(),
+                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_ON_BLANK.get(),
+                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_BLANK.get()
                 )
         ;
 
@@ -448,7 +450,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_LIGHT_PURPLE.get(),
                         ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_YELLOW.get(),
                         ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_WHITE.get(),
-                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MINECOIN_GOLD.get()
+                        ModBlocks.TEXT_COLOR_INDICATOR_BLOCK_MINECOIN_GOLD.get(),
+                        ModBlocks.REDSTONE_INDICATOR_BLOCK_LEVER_OFF_DARKENED.get()
                 )
         ;
 

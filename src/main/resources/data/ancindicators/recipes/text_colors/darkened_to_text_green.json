@@ -5,7 +5,9 @@
     [{      "item": "ancindicators:text_color_indicator_template_block_darkened"    },
       {      "item": "ancindicators:darkened_blank_indicator_block"    }
     ],
-    {      "item": "minecraft:green_dye"    }
+    [{      "item": "minecraft:green_dye"    },
+      {      "item": "minecraft:lime_dye"    }
+    ]
   ],
   "result": {    "item": "ancindicators:text_color_indicator_block_green"  }
 }

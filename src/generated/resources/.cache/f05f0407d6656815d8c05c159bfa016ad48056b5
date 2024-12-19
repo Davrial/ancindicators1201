@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-18T17:27:47.717469	Tags for minecraft:item mod id ancindicators
+// 1.20.1	2024-12-18T19:23:42.7648478	Tags for minecraft:item mod id ancindicators
 deebb14c85a287f75b2ff4208d8d525e72c517f9 data/ancindicators/tags/items/advanced_indicator_block_items.json
 4660cd544f3465be7e7380297be0b153c0f62680 data/ancindicators/tags/items/all_color_palettes.json
 80db05b34384c9a327979718ebd4308a4f4add8b data/ancindicators/tags/items/all_erasables.json
@@ -21,9 +21,9 @@ dd4b89c2bc394e5988b925d0940a7ac4ea1c820c data/ancindicators/tags/items/coloring_
 8aa097f01b145bfe3494e79e8251615cb9eb6b01 data/ancindicators/tags/items/color_indicator_block_items.json
 522d8bfa7afbfd967b54cbb8fff43721d810dc54 data/ancindicators/tags/items/directional_indicator_block_items.json
 c4b9b4991fd7424ab6f54527ce5bde60cbb10355 data/ancindicators/tags/items/directional_indicator_items.json
-e6bb0c05b21ae4e33f06b77d2c4edaea8ccfc5fb data/ancindicators/tags/items/erasable_to_blank_block_items.json
+c3f3a5cfdaeeadf37ebf2bb424ceb6bc47c78cc5 data/ancindicators/tags/items/erasable_to_blank_block_items.json
 dc864761afe38a4a8115f95b68d2c607374ad32f data/ancindicators/tags/items/erasable_to_blank_items.json
-650d66a5f35370de134d41673e078c7fdd40f7b9 data/ancindicators/tags/items/erasable_to_darkened_block_items.json
+6b5cc41a957e96820a25abfc86ed72d1185b832f data/ancindicators/tags/items/erasable_to_darkened_block_items.json
 5ffd294df19794de33b484f9410a276eaebfea9a data/ancindicators/tags/items/erasable_to_darkened_items.json
 c589ce93d2b60dde0d31fdcfee7da07b1a4618ad data/ancindicators/tags/items/erasable_to_light_level_block_items.json
 99050a80a1c42163726f4610f23c11c96077d6d3 data/ancindicators/tags/items/erasable_to_light_level_items.json
