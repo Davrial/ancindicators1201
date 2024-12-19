@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc,",
+  "pattern": [
+    "123",
+    "454",
+    "341"
+  ],
+  "key": {
+    "1": {      "item": "minecraft:white_dye"    },
+    "2": {      "item": "minecraft:glowstone_dust"    },
+    "3": {      "item": "minecraft:black_dye"    },
+    "4": {      "item": "minecraft:glass"    },
+    "5": {      "item": "minecraft:water_bucket"    }
+  },
+  "result": {    "item": "ancindicators:bottle_of_paint_base",  "count": 3    }
+}
