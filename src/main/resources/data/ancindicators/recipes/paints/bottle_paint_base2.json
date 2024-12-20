@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {      "item": "minecraft:white_dye"    },
+    {      "item": "minecraft:black_dye"      },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "count": 1,
+      "nbt": "{Potion:\"minecraft:thick\"}"
+    }
+  ],
+  "result": {    "item": "ancindicators:bottle_of_paint_base"}
+}
